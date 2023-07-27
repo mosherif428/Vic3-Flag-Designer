@@ -1,4 +1,22 @@
-﻿change_color_red_0 = {
+﻿initial_coa_effect = {
+	scope = country
+	effect = {
+		initial_coa_effect = yes
+	}
+}
+
+change_pattern = {
+	scope = country
+	saved_scopes = { emblem }
+	effect = {
+		set_variable = {
+			name = pattern_bg
+			value = scope:emblem
+		}
+	}
+}
+
+change_color_red_0 = {
 	scope = country
 	saved_scopes = { flag }
 	effect = {

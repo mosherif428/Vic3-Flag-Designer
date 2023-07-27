@@ -1,0 +1,19 @@
+initial_coa_effect = {
+    set_variable = {
+        name = pattern_bg
+        value = "[CoatofArms.GetFlag.pattern]"
+    }
+    set_variable = {
+        name = pattern_color_0
+        value = "[CoatofArms.GetFlag.color1]"
+    }
+    set_variable = {
+        name = pattern_color_1
+        value = "[CoatofArms.GetFlag.color2]"
+    }
+    set_variable = {
+        name = pattern_color_2
+        value = "[CoatofArms.GetFlag.color3]"
+    }
+
+}

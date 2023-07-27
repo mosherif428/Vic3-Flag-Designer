@@ -105,4 +105,572 @@
 			100 = "purple"
 		}
 	}
+	pattern_color_1 = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 0
+				}
+			}
+			100 = "red"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 1
+				}
+			}
+			100 = "orange"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 2
+				}
+			}
+			100 = "yellow"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 3
+				}
+			}
+			100 = "yellow_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 4
+				}
+			}
+			100 = "white"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 5
+				}
+			}
+			100 = "grey"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 6
+				}
+			}
+			100 = "black"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 7
+				}
+			}
+			100 = "brown"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 8
+				}
+			}
+			100 = "green"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 9
+				}
+			}
+			100 = "green_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 10
+				}
+			}
+			100 = "blue_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 11
+				}
+			}
+			100 = "blue"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_1 = 12
+				}
+			}
+			100 = "purple"
+		}
+	}
+	pattern_color_2 = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 0
+				}
+			}
+			100 = "red"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 1
+				}
+			}
+			100 = "orange"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 2
+				}
+			}
+			100 = "yellow"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 3
+				}
+			}
+			100 = "yellow_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 4
+				}
+			}
+			100 = "white"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 5
+				}
+			}
+			100 = "grey"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 6
+				}
+			}
+			100 = "black"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 7
+				}
+			}
+			100 = "brown"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 8
+				}
+			}
+			100 = "green"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 9
+				}
+			}
+			100 = "green_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 10
+				}
+			}
+			100 = "blue_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 11
+				}
+			}
+			100 = "blue"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_2 = 12
+				}
+			}
+			100 = "purple"
+		}
+	}
+}
+pattern_lists = {
+	pattern_bg = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_solid
+				}
+			}
+			100 = "pattern_solid.tga"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_checkers_01
+				}
+			}
+			100 = "pattern_checkers_01.tga"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_horizontal_split_01
+				}
+			}
+			100 = "pattern_horizontal_split_01.tga"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_vertical_split_01
+				}
+			}
+			100 = "pattern_vertical_split_01.tga"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_double
+				}
+			}
+			100 = "pattern_border_double.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_2
+				}
+			}
+			100 = "pattern_border_of_2.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_2_double
+				}
+			}
+			100 = "pattern_border_of_2_double.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_2_vertical
+				}
+			}
+			100 = "pattern_border_of_2_vertical.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_3
+				}
+			}
+			100 = "pattern_border_of_3.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_3_decorated
+				}
+			}
+			100 = "pattern_border_of_3_decorated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_3_double
+				}
+			}
+			100 = "pattern_border_of_3_double.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_of_4
+				}
+			}
+			100 = "pattern_border_of_4.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_outlined_thin
+				}
+			}
+			100 = "pattern_border_outlined_thin.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_triangles
+				}
+			}
+			100 = "pattern_border_triangles.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_triangles_morocco
+				}
+			}
+			100 = "pattern_border_triangles_morocco.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_two_stripes
+				}
+			}
+			100 = "pattern_border_two_stripes.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_venice
+				}
+			}
+			100 = "pattern_border_venice.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_01
+				}
+			}
+			100 = "pattern_border_west_africa_01.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_02
+				}
+			}
+			100 = "pattern_border_west_africa_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_03
+				}
+			}
+			100 = "pattern_border_west_africa_03.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_04
+				}
+			}
+			100 = "pattern_border_west_africa_04.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_05
+				}
+			}
+			100 = "pattern_border_west_africa_05.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_06
+				}
+			}
+			100 = "pattern_border_west_africa_06.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_07
+				}
+			}
+			100 = "pattern_border_west_africa_07.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_border_west_africa_08
+				}
+			}
+			100 = "pattern_border_west_africa_08.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_circle
+				}
+			}
+			100 = "pattern_circle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_cross
+				}
+			}
+			100 = "pattern_cross.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_gironny_8
+				}
+			}
+			100 = "pattern_gironny_8.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_gironny_12
+				}
+			}
+			100 = "pattern_gironny_12.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_gironny_12_tricolor
+				}
+			}
+			100 = "pattern_gironny_12_tricolor.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_gironny_16
+				}
+			}
+			100 = "pattern_gironny_16.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_gironny_16_center
+				}
+			}
+			100 = "pattern_gironny_16_center.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_gironny_32
+				}
+			}
+			100 = "pattern_gironny_32.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_large_bend
+				}
+			}
+			100 = "pattern_large_bend.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_large_bend_sinister
+				}
+			}
+			100 = "pattern_large_bend_sinister.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_lozengy_bend
+				}
+			}
+			100 = "pattern_lozengy_bend.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_per_bend
+				}
+			}
+			100 = "pattern_per_bend.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_per_bend_sinister
+				}
+			}
+			100 = "pattern_per_bend_sinister.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_per_saltire
+				}
+			}
+			100 = "pattern_per_saltire.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_rhombus
+				}
+			}
+			100 = "pattern_rhombus.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_shield_heater
+				}
+			}
+			100 = "pattern_shield_heater.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_two_stripes_fimbriated
+				}
+			}
+			100 = "pattern_two_stripes_fimbriated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_verical_bicolor_offset
+				}
+			}
+			100 = "pattern_verical_bicolor_offset.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_bg = flag:pattern_verical_bicolor_third
+				}
+			}
+			100 = "pattern_verical_bicolor_third.dds"
+		}
+	}
 }
