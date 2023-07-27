@@ -1,0 +1,88 @@
+﻿window = {
+	name = "flag_designer_window"
+	size = { 100% 100% }
+	movable = no
+	layer = middle
+	#visible = "[GetVariableSystem.Exists('flag_designer_open')]"
+
+	using = default_bg
+
+	state = {
+		name = _show
+		using = Animation_FadeIn_Standard
+		using = Sound_WindowShow_Standard
+	}
+
+	state = {
+		name = _hide
+		using = Animation_FadeOut_Standard
+		using = Sound_WindowHide_Standard
+	}
+
+	vbox = {
+		margin_top = 10 
+		
+		header_standard = {
+			#datacontext = "[AccessPlayer]"
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text"
+			{
+				text = "FLAG_DESIGNER"
+			}
+
+			blockoverride "button_close"
+			{
+				onclick = "[ExecuteConsoleCommand('gui.ClearWidgets flag_designer_window')]"
+			}
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			margin = { 20 15 }
+			spacing = 10
+
+			background = default_bg
+
+			hbox = {
+				name = "content"
+
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				margin_bottom = 20
+				spacing = 10
+
+				#divider_light = {
+				#	layoutpolicy_vertical = expanding
+				#	position = { 650 0 }
+				#}
+
+				vbox_flag_designer = {
+					datacontext = "[AccessPlayer]"
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+				}
+			}
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+
+				background = {
+					using = Background_Area
+
+					margin = { 20 20}
+				}
+
+				button_primary = {
+					name = "finish_button"
+
+					text = "FINISH"
+					enabled = "[HouseCustomizationWindow.CanClickFinish]"
+					tooltip = "[HouseCustomizationWindow.GetCanClickFinishText]"
+					onclick = "[HouseCustomizationWindow.OnClickFinish]"
+				}
+			}
+		}
+	}
+}

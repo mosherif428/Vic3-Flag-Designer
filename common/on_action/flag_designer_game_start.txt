@@ -1,0 +1,193 @@
+on_game_start = { 
+	on_actions = { on_game_start_flag_designer }
+}
+on_game_start_flag_designer = { 
+	effect = {
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_solid
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_checkers_01
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_horizontal_split_01
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_vertical_split_01
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_double
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_2
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_2_double
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_2_vertical
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_3
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_3_decorated
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_3_double
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_of_4
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_outlined_thin
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_triangles
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_triangles_morocco
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_two_stripes
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_venice
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_01
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_02
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_03
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_04
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_05
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_06
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_07
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_border_west_africa_08
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_circle
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_cross
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_gironny_8
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_gironny_12
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_gironny_12_tricolor
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_gironny_16
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_gironny_16_center
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_gironny_32
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_large_bend
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_large_bend_sinister
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_lozengy_bend
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_per_bend
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_per_bend_sinister
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_per_saltire
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_rhombus
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_shield_heater
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_two_stripes_fimbriated
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_verical_bicolor_offset
+		}
+		add_to_global_variable_list = { 
+			name = all_patterns
+			target = flag:pattern_verical_bicolor_third
+		}
+	}
+}
+on_game_start_after_lobby = {
+	on_actions = { on_game_start_after_flag_designer }
+}
+#on_game_start_after_flag_designer = {
+#	effect = {
+#		every_culture_global = {
+#			remove_variable = fixed_coa
+#		}
+#	}
+#}

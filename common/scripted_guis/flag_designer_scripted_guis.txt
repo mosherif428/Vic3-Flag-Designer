@@ -1,0 +1,190 @@
+﻿change_color_red_0 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_0
+			value = 0
+		}
+	}
+}
+change_color_red_1 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_1
+			value = 0
+		}
+	}
+}
+change_color_red_2 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_2
+			value = 0
+		}
+	}
+}
+change_color_orange_0 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_0
+			value = 1
+		}
+	}
+}
+change_color_orange_1 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_1
+			value = 1
+		}
+	}
+}
+change_color_orange_2 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_2
+			value = 1
+		}
+	}
+}
+change_color_yellow_0 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_0
+			value = 2
+		}
+	}
+}
+change_color_yellow_1 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_1
+			value = 2
+		}
+	}
+}
+change_color_yellow_2 = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color_2
+			value = 2
+		}
+	}
+}
+change_color_yellow_light = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 3
+		}
+	}
+}
+change_color_white = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 4
+		}
+	}
+}
+change_color_grey = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 5
+		}
+	}
+}
+change_color_black = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 6
+		}
+	}
+}
+change_color_brown = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 7
+		}
+	}
+}
+change_color_green = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 8
+		}
+	}
+}
+change_color_green_light = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 9
+		}
+	}
+}
+change_color_blue_light = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 10
+		}
+	}
+}
+change_color_blue = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 11
+		}
+	}
+}
+change_color_purple = {
+	scope = country
+	saved_scopes = { flag }
+	effect = {
+		set_variable = {
+			name = pattern_color
+			value = 12
+		}
+	}
+}

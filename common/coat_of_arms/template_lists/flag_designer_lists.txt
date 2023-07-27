@@ -1,0 +1,108 @@
+﻿color_lists = {
+	pattern_color_0 = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 0
+				}
+			}
+			100 = "red"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 1
+				}
+			}
+			100 = "orange"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 2
+				}
+			}
+			100 = "yellow"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 3
+				}
+			}
+			100 = "yellow_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 4
+				}
+			}
+			100 = "white"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 5
+				}
+			}
+			100 = "grey"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 6
+				}
+			}
+			100 = "black"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 7
+				}
+			}
+			100 = "brown"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 8
+				}
+			}
+			100 = "green"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 9
+				}
+			}
+			100 = "green_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 10
+				}
+			}
+			100 = "blue_light"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 11
+				}
+			}
+			100 = "blue"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:pattern_color_0 = 12
+				}
+			}
+			100 = "purple"
+		}
+	}
+}
