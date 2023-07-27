@@ -5,7 +5,7 @@
 	layer = middle
 	#visible = "[GetVariableSystem.Exists('flag_designer_open')]"
 
-	using = default_bg
+	background = default_bg
 
 	state = {
 		name = _show

@@ -78,8 +78,7 @@
         item = {
             button = {
                 size = { 64 64 }
-                # Tooltip shows modifier description, useful for modifiers that affect a lot of different stats.
-                block "itemcontext" {datacontext = "[GetScriptedGui('pattern_color_0')]"} 
+                block "itemcontext" {datacontext = "[GetScriptedGui('change_pattern')]"} 
                 onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Country.MakeScope).AddScope('pattern_bg', MakeScopeFlag(Scope.GetFlagName)).End)]"
                 background = {
                     using = Background_Area_Solid
@@ -87,7 +86,7 @@
                 }
                 background = {
                     using = Background_Area_Light
-                    visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Culture.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
+                    visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Country.MakeScope).AddScope('pattern_bg', MakeScopeFlag(Scope.GetFlagName)).End)]"
                     margin = { 0 0 }
                 }
             }
@@ -99,7 +98,6 @@
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = expanding
 		background = Background_Area
-		datacontext = "[GetGlobalList('all_patterns')]"
 		vbox = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
@@ -125,36 +123,6 @@
 		}
 	}
 
-	type vbox_flag_designer_emblemlayout_list = vbox
-	{
-		layoutpolicy_horizontal = expanding
-		layoutpolicy_vertical = expanding
-		background = Background_Area
-		datacontext = "[GetGlobalList('emblem_layouts')]"
-		vbox = {
-			layoutpolicy_horizontal = expanding
-			layoutpolicy_vertical = expanding
-			text_multi = {
-				text = "Choose a layout"
-				background = dark_area
-				autoresize = yes
-				parentanchor = top
-				margin_top = 5
-				margin_bottom = 5
-				margin_right = 100
-				margin_left = 100
-
-			}
-			scrollbox = {
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
-				blockoverride "scrollbox_content"
-				{
-					emblem_layouts = {}
-				}
-			}
-		}
-	}
 
 	type vbox_flag_designer_bgcolors = vbox
 	{
@@ -297,6 +265,139 @@
 		}
 			
 	}
+
+	type vbox_flag_designer_emblemlayout_list = vbox
+	{
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+		background = Background_Area
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			text_multi = {
+				text = "Layouts"
+				background = dark_area
+				autoresize = yes
+				parentanchor = top
+				margin_top = 5
+				margin_bottom = 5
+				margin_right = 100
+				margin_left = 100
+
+			}
+			scrollbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				blockoverride "scrollbox_content"
+				{
+					emblem_layouts = {}
+				}
+			}
+		}
+	}
+
+	type colored_emblem_list = dynamicgridbox
+	{
+		ignoreinvisible = yes
+        maxverticalslots = 1000
+        flipdirection = yes
+        block "width"{
+            datamodel_wrap = 4
+            maxhorizontalslots = 4
+        }
+        layoutpolicy_vertical = expanding
+        layoutpolicy_horizontal = expanding
+        position = {0 0}
+        block "datamodel" {
+            datamodel = "[GetGlobalList('all_emblems')]"
+        }
+        item = {
+            button = {
+                size = { 64 64 }
+                block "itemcontext" {datacontext = "[GetScriptedGui('change_emblem')]"} 
+                onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Country.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
+                background = {
+                    using = Background_Area_Solid
+                    margin = { 0 0 }
+                }
+                background = {
+                    using = Background_Area_Light
+                    visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Country.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
+                    margin = { 0 0 }
+                }
+            }
+		}
+	}
+
+	type textured_emblem_list = dynamicgridbox
+	{
+		ignoreinvisible = yes
+        maxverticalslots = 1000
+        flipdirection = yes
+        block "width"{
+            datamodel_wrap = 4
+            maxhorizontalslots = 4
+        }
+        layoutpolicy_vertical = expanding
+        layoutpolicy_horizontal = expanding
+        position = {0 0}
+        block "datamodel" {
+            datamodel = "[GetGlobalList('all_emblems')]"
+        }
+        item = {
+            button = {
+                size = { 64 64 }
+                block "itemcontext" {datacontext = "[GetScriptedGui('change_emblem')]"} 
+                onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Country.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
+                background = {
+                    using = Background_Area_Solid
+                    margin = { 0 0 }
+                }
+                background = {
+                    using = Background_Area_Light
+                    visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Country.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
+                    margin = { 0 0 }
+                }
+            }
+		}
+	}
+
+	type vbox_flag_designer_emblem_list = vbox
+	{
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+		background = Background_Area
+		datamodel = "[GetGlobalList('all_emblems')]"
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			tab_button = {
+				text = "Colored Emblems"
+				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_instances', 'colored_emblem_list')]"
+				down = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_instances', 'colored_emblem_list')]"
+
+				layoutpolicy_horizontal = expanding
+			}
+
+			tab_button = {
+				text = "Textured Emblems"
+				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_instances', 'textured_emblem_list')]"
+				down = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_instances', 'textured_emblem_list')]"
+
+
+				layoutpolicy_horizontal = expanding
+			}
+			scrollbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				blockoverride "scrollbox_content"
+				{
+					emblem_list = {}
+				}
+			}
+		}
+	}
+
 	type vbox_flag_designer_preview = vbox
 	{
 		name = "flag_designer_previews"
@@ -318,7 +419,8 @@
 					texture = "gfx/interface/flag/fancy_flag_country_view.dds"
 				}
 				flag_3d_animated = {
-					datacontext = "[Country.GetFlag]"
+					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					texture = "[GetScriptedGui('initial_coa_effect')]"
 					size = { 550 309 }
 					position = { 0 0 }
 				}
@@ -330,16 +432,20 @@
 				layoutpolicy_horizontal = shrinking
 				spacing = 50
 				tiny_flag = {
-					datacontext = "[AccessPlayer]"
+					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					texture = "[GetScriptedGui('initial_coa_effect')]"
 				}
 				small_flag = {
-					datacontext = "[AccessPlayer]"
+					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					texture = "[GetScriptedGui('initial_coa_effect')]"
 				}
 				flag = {
-					datacontext = "[AccessPlayer]"
+					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					texture = "[GetScriptedGui('initial_coa_effect')]"
 				}
 				large_flag = {
-					datacontext = "[AccessPlayer]"
+					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					texture = "[GetScriptedGui('initial_coa_effect')]"
 				}
 			}
 		}
@@ -386,10 +492,7 @@
 
 			tab_button = {
 				text = "Emblem Instances"
-				datacontext = "[CoatOfArmsDesigner.GetEmblemInstancesPanel]"
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_instances')]"
-				onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.ResetSelectedEmblems]"
-				onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.UpdateTexturePreviewColors]"
 
 				down = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_instances')]"
 
@@ -413,7 +516,7 @@
 		name = "background_panel"
 		visible = "[GetVariableSystem.HasValue('flag_designer_window', 'background_panel')]"
 		
-		datacontext = "[GetGlobalList('all_patterns')]"
+		datamodel = "[GetGlobalList('all_patterns')]"
 		
 		vbox_flag_designer_bgcolors = {}
 		
@@ -435,7 +538,7 @@
 		name = "emblem_layout"
 		visible = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_layout')]"
 		
-		datacontext = "[GetGlobalList('emblem_layouts')]"
+		datamodel = "[GetGlobalList('emblem_layouts')]"
 		vbox = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
@@ -457,7 +560,7 @@
 		name = "emblem_layout"
 		visible = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_instances')]"
 		
-		datacontext = "[GetGlobalList('all_emblems')]"
+		datamodel = "[GetGlobalList('all_emblems')]"
 		vbox_flag_designer_emblemcolors = {}
 		vbox = {
 			layoutpolicy_horizontal = expanding
