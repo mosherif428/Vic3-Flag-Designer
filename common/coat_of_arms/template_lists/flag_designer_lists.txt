@@ -674,6 +674,4889 @@ pattern_lists = {
 		}
 	}
 }
-colored_emblems = {
-	
+emblem_lists = {
+	colored_emblem = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_solid
+				}
+			}
+			100 = "ce_solid.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bend_dexter
+				}
+			}
+			100 = "ce_bend_dexter.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bend_dexter_fimbriated
+				}
+			}
+			100 = "ce_bend_dexter_fimbriated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bend_sinister
+				}
+			}
+			100 = "ce_bend_sinister.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bend_sinister_fimbriated
+				}
+			}
+			100 = "ce_bend_sinister_fimbriated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bends_chief_manchester
+				}
+			}
+			100 = "ce_bends_chief_manchester.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bicolor_bottom
+				}
+			}
+			100 = "ce_bicolor_bottom.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bicolor_left
+				}
+			}
+			100 = "ce_bicolor_left.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bicolor_left_third
+				}
+			}
+			100 = "ce_bicolor_left_third.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bicolor_left_third_indented
+				}
+			}
+			100 = "ce_bicolor_left_third_indented.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bicolor_right
+				}
+			}
+			100 = "ce_bicolor_right.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bicolor_top
+				}
+			}
+			100 = "ce_bicolor_top.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_canton
+				}
+			}
+			100 = "ce_canton.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tribar
+				}
+			}
+			100 = "ce_tribar.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_bend
+				}
+			}
+			100 = "ce_tricolor_bend.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_doubled
+				}
+			}
+			100 = "ce_tricolor_doubled.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_fimbriated_large
+				}
+			}
+			100 = "ce_tricolor_fimbriated_large.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_fimbriated_thin
+				}
+			}
+			100 = "ce_tricolor_fimbriated_thin.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_horizontal
+				}
+			}
+			100 = "ce_tricolor_horizontal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_horizontal_fifth
+				}
+			}
+			100 = "ce_tricolor_horizontal_fifth.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_horizontal_thick
+				}
+			}
+			100 = "ce_tricolor_horizontal_thick.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tricolor_thick
+				}
+			}
+			100 = "ce_tricolor_thick.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hexacolor_horizontal
+				}
+			}
+			100 = "ce_hexacolor_horizontal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_nonacolor_horizontal
+				}
+			}
+			100 = "ce_nonacolor_horizontal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_per_cross
+				}
+			}
+			100 = "ce_per_cross.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_per_saltire
+				}
+			}
+			100 = "ce_per_saltire.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_per_saltire_counterchanged
+				}
+			}
+			100 = "ce_per_saltire_counterchanged.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_quarterly_per_fess_wavy
+				}
+			}
+			100 = "ce_quarterly_per_fess_wavy.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fess_fimbriated
+				}
+			}
+			100 = "ce_fess_fimbriated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_saltire
+				}
+			}
+			100 = "ce_saltire.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_saltire_fimbriated
+				}
+			}
+			100 = "ce_saltire_fimbriated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_saltire_fimbriated_02
+				}
+			}
+			100 = "ce_saltire_fimbriated_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripe_bottom
+				}
+			}
+			100 = "ce_stripe_bottom.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripe_bottom_nkp
+				}
+			}
+			100 = "ce_stripe_bottom_nkp.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripe_bottom_raised
+				}
+			}
+			100 = "ce_stripe_bottom_raised.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripe_center
+				}
+			}
+			100 = "ce_stripe_center.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_02_bottom_karelia
+				}
+			}
+			100 = "ce_stripes_02_bottom_karelia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_02_bottom_lithuania
+				}
+			}
+			100 = "ce_stripes_02_bottom_lithuania.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_02_bottom_tajik
+				}
+			}
+			100 = "ce_stripes_02_bottom_tajik.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_02_center
+				}
+			}
+			100 = "ce_stripes_02_center.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_03_center
+				}
+			}
+			100 = "ce_stripes_03_center.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_03_middle
+				}
+			}
+			100 = "ce_stripes_03_middle"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_04
+				}
+			}
+			100 = "ce_stripes_04.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_05
+				}
+			}
+			100 = "ce_stripes_05.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_06
+				}
+			}
+			100 = "ce_stripes_06.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_07
+				}
+			}
+			100 = "ce_stripes_07.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_08
+				}
+			}
+			100 = "ce_stripes_08.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_08_hawaii
+				}
+			}
+			100 = "ce_stripes_08_hawaii.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_09
+				}
+			}
+			100 = "ce_stripes_09.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_9
+				}
+			}
+			100 = "ce_stripes_9.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_10
+				}
+			}
+			100 = "ce_stripes_10.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_10_alternating
+				}
+			}
+			100 = "ce_stripes_10_alternating.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_11
+				}
+			}
+			100 = "ce_stripes_11.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_12
+				}
+			}
+			100 = "ce_stripes_12.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stripes_13
+				}
+			}
+			100 = "ce_stripes_13.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_ceylon
+				}
+			}
+			100 = "ce_border_ceylon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_checkered
+				}
+			}
+			100 = "ce_border_checkered.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_compony
+				}
+			}
+			100 = "ce_border_compony.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_decor_india
+				}
+			}
+			100 = "ce_border_decor_india.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_of_3_sikkim
+				}
+			}
+			100 = "ce_border_of_3_sikkim.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_orle
+				}
+			}
+			100 = "ce_border_orle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_overlord
+				}
+			}
+			100 = "ce_border_overlord.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_border_sikkim
+				}
+			}
+			100 = "ce_border_sikkim.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_04
+				}
+			}
+			100 = "ce_checker_04.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_05
+				}
+			}
+			100 = "ce_checker_05.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_06
+				}
+			}
+			100 = "ce_checker_06.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_08
+				}
+			}
+			100 = "ce_checker_08.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_16
+				}
+			}
+			100 = "ce_checker_16.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_20
+				}
+			}
+			100 = "ce_checker_20.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_24
+				}
+			}
+			100 = "ce_checker_24.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_checker_orle
+				}
+			}
+			100 = "ce_checker_orle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_chevron
+				}
+			}
+			100 = "ce_chevron.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_circle
+				}
+			}
+			100 = "ce_circle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_circle
+				}
+			}
+			100 = "ce_frame_circle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_circle_doted
+				}
+			}
+			100 = "ce_frame_circle_doted.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_circle_outline
+				}
+			}
+			100 = "ce_frame_circle_outline.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_circle_per_fess
+				}
+			}
+			100 = "ce_frame_circle_per_fess.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_circle_roundel_triangles
+				}
+			}
+			100 = "ce_frame_circle_roundel_triangles.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_circle_triangles
+				}
+			}
+			100 = "ce_frame_circle_triangles.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_delta
+				}
+			}
+			100 = "ce_delta.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_octagon
+				}
+			}
+			100 = "ce_frame_octagon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_square
+				}
+			}
+			100 = "ce_frame_square.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_star
+				}
+			}
+			100 = "ce_frame_star.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wiphala
+				}
+			}
+			100 = "ce_wiphala.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_waves
+				}
+			}
+			100 = "ce_waves.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_waves_estonia
+				}
+			}
+			100 = "ce_waves_estonia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_waves_latvia
+				}
+			}
+			100 = "ce_waves_latvia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fleur_de_lis
+				}
+			}
+			100 = "ce_fleur_de_lis.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fleur_quebec
+				}
+			}
+			100 = "ce_fleur_quebec.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lotus
+				}
+			}
+			100 = "ce_lotus.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lotus_base
+				}
+			}
+			100 = "ce_lotus_base.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_chrysanthemum_japan
+				}
+			}
+			100 = "ce_chrysanthemum_japan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_maple_leaf
+				}
+			}
+			100 = "ce_maple_leaf.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_maple_leaf_canada
+				}
+			}
+			100 = "ce_maple_leaf_canada.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_maple_leafs
+				}
+			}
+			100 = "ce_maple_leafs.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_palm_tree
+				}
+			}
+			100 = "ce_palm_tree.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tree_new_england
+				}
+			}
+			100 = "ce_tree_new_england.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cedar_lebanon
+				}
+			}
+			100 = "ce_cedar_lebanon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_saf_tree
+				}
+			}
+			100 = "ce_coa_saf_tree.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_pattern_flower
+				}
+			}
+			100 = "ce_pattern_flower.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_koru
+				}
+			}
+			100 = "ce_koru.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_pineapple
+				}
+			}
+			100 = "ce_pineapple.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_pomegranate
+				}
+			}
+			100 = "ce_pomegranate.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wheat_garb
+				}
+			}
+			100 = "ce_wheat_garb.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_clouds_china_01
+				}
+			}
+			100 = "ce_clouds_china_01.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_clouds_china_02
+				}
+			}
+			100 = "ce_clouds_china_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_clouds_china_03
+				}
+			}
+			100 = "ce_clouds_china_03.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_celestial_sphere_brazil
+				}
+			}
+			100 = "ce_celestial_sphere_brazil.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun
+				}
+			}
+			100 = "ce_sun.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_face
+				}
+			}
+			100 = "ce_sun_face.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_face_gwalior
+				}
+			}
+			100 = "ce_sun_face_gwalior.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_of_may
+				}
+			}
+			100 = "ce_sun_of_may.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_peru
+				}
+			}
+			100 = "ce_sun_peru.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_philippines
+				}
+			}
+			100 = "ce_sun_philippines.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_sikh
+				}
+			}
+			100 = "ce_sun_sikh.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sunburst
+				}
+			}
+			100 = "ce_sunburst.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_comanche_sun
+				}
+			}
+			100 = "ce_comanche_sun.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_ddr_sun_bg
+				}
+			}
+			100 = "ce_frame_ddr_sun_bg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_rising_sun
+				}
+			}
+			100 = "ce_rising_sun.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_waves
+				}
+			}
+			100 = "ce_sun_waves.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sun_xia
+				}
+			}
+			100 = "ce_sun_xia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sol_de_mayo
+				}
+			}
+			100 = "ce_sol_de_mayo.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_inti
+				}
+			}
+			100 = "ce_inti.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_southern_cross_australia
+				}
+			}
+			100 = "ce_southern_cross_australia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_southern_cross_brazil
+				}
+			}
+			100 = "ce_southern_cross_brazil.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_southern_cross_brazil_tilted
+				}
+			}
+			100 = "ce_southern_cross_brazil_tilted.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_southern_cross_new_zealand
+				}
+			}
+			100 = "ce_southern_cross_new_zealand.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_southern_cross_variant
+				}
+			}
+			100 = "ce_southern_cross_variant.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_04
+				}
+			}
+			100 = "ce_star_04.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_morning_star
+				}
+			}
+			100 = "ce_morning_star.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05
+				}
+			}
+			100 = "ce_star_05.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_circle
+				}
+			}
+			100 = "ce_star_05_circle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_hollow
+				}
+			}
+			100 = "ce_star_05_hollow.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_morocco
+				}
+			}
+			100 = "ce_star_05_morocco.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_pinwheeled
+				}
+			}
+			100 = "ce_star_05_pinwheeled.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_ring
+				}
+			}
+			100 = "ce_star_05_ring.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_tilted
+				}
+			}
+			100 = "ce_star_05_tilted.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_06
+				}
+			}
+			100 = "ce_star_06.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_07
+				}
+			}
+			100 = "ce_star_07.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_08
+				}
+			}
+			100 = "ce_star_08.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_08_eureka
+				}
+			}
+			100 = "ce_star_08_eureka.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_09
+				}
+			}
+			100 = "ce_star_09.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_10
+				}
+			}
+			100 = "ce_star_10.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_11
+				}
+			}
+			100 = "ce_star_11.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_12
+				}
+			}
+			100 = "ce_star_12.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_13
+				}
+			}
+			100 = "ce_star_13.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_14
+				}
+			}
+			100 = "ce_star_14.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_16
+				}
+			}
+			100 = "ce_star_16.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_16_bright
+				}
+			}
+			100 = "ce_star_16_bright.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_gunelve
+				}
+			}
+			100 = "ce_star_gunelve.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_hexagram
+				}
+			}
+			100 = "ce_star_hexagram.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_pentagram
+				}
+			}
+			100 = "ce_star_pentagram.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_saltire_13
+				}
+			}
+			100 = "ce_star_saltire_13.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stars_circle_07
+				}
+			}
+			100 = "ce_stars_circle_07.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_stars_venezuela
+				}
+			}
+			100 = "ce_stars_venezuela.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent
+				}
+			}
+			100 = "ce_crescent.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_large
+				}
+			}
+			100 = "ce_crescent_large.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_nepal
+				}
+			}
+			100 = "ce_crescent_nepal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_pale
+				}
+			}
+			100 = "ce_crescent_pale.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_rotated
+				}
+			}
+			100 = "ce_crescent_rotated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_05
+				}
+			}
+			100 = "ce_crescent_star_05.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_05_pale
+				}
+			}
+			100 = "ce_crescent_star_05_pale.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_05_rotated
+				}
+			}
+			100 = "ce_crescent_star_05_rotated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_06
+				}
+			}
+			100 = "ce_crescent_star_06.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_06_pale
+				}
+			}
+			100 = "ce_crescent_star_06_pale.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_08
+				}
+			}
+			100 = "ce_crescent_star_08.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_star_turkey
+				}
+			}
+			100 = "ce_crescent_star_turkey.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_three
+				}
+			}
+			100 = "ce_crescent_three.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_two
+				}
+			}
+			100 = "ce_crescent_two.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crescent_voided
+				}
+			}
+			100 = "ce_crescent_voided.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_moon_face
+				}
+			}
+			100 = "ce_moon_face.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bear_california
+				}
+			}
+			100 = "ce_bear_california.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_beaver
+				}
+			}
+			100 = "ce_beaver.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bee
+				}
+			}
+			100 = "ce_bee.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_buffalo
+				}
+			}
+			100 = "ce_buffalo.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_buffalo_02
+				}
+			}
+			100 = "ce_buffalo_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_aurochs_head
+				}
+			}
+			100 = "ce_aurochs_head.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bull_head
+				}
+			}
+			100 = "ce_bull_head.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bull_head_african
+				}
+			}
+			100 = "ce_bull_head_african.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bull_head_mecklenburg
+				}
+			}
+			100 = "ce_bull_head_mecklenburg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crocodile
+				}
+			}
+			100 = "ce_crocodile.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_deer_supporter
+				}
+			}
+			100 = "ce_deer_supporter.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_dragon_bhutan
+				}
+			}
+			100 = "ce_dragon_bhutan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_dragon_china
+				}
+			}
+			100 = "ce_dragon_china.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_dragon_china_circle
+				}
+			}
+			100 = "ce_dragon_china_circle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_dragon_wales
+				}
+			}
+			100 = "ce_dragon_wales.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle
+				}
+			}
+			100 = "ce_eagle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_albania
+				}
+			}
+			100 = "ce_eagle_albania.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_claws
+				}
+			}
+			100 = "ce_eagle_claws.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_crown
+				}
+			}
+			100 = "ce_eagle_crown.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_double_headed
+				}
+			}
+			100 = "ce_eagle_double_headed.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_doubleheaded_austria_claws
+				}
+			}
+			100 = "ce_eagle_doubleheaded_austria_claws.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_doubleheaded_base
+				}
+			}
+			100 = "ce_eagle_doubleheaded_base.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_doubleheaded_lubeck_claws
+				}
+			}
+			100 = "ce_eagle_doubleheaded_lubeck_claws.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_doubleheaded_russia_claws
+				}
+			}
+			100 = "ce_eagle_doubleheaded_russia_claws.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_fascist_stylized
+				}
+			}
+			100 = "ce_eagle_fascist_stylized.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_head
+				}
+			}
+			100 = "ce_eagle_head.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_italy_fascist
+				}
+			}
+			100 = "ce_eagle_italy_fascist.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_legless
+				}
+			}
+			100 = "ce_eagle_legless.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_napoleonian
+				}
+			}
+			100 = "ce_eagle_napoleonian.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_prussia
+				}
+			}
+			100 = "ce_eagle_prussia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_usa_simple
+				}
+			}
+			100 = "ce_eagle_usa_simple.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eagle_wallachia
+				}
+			}
+			100 = "ce_eagle_wallachia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_reichsadler
+				}
+			}
+			100 = "ce_reichsadler.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_elephant_african
+				}
+			}
+			100 = "ce_elephant_african.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_elephant_asia
+				}
+			}
+			100 = "ce_elephant_asia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_elephant_asia_decorated
+				}
+			}
+			100 = "ce_elephant_asia_decorated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_elephant_charge_kutch
+				}
+			}
+			100 = "ce_elephant_charge_kutch.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_elephant_erawan
+				}
+			}
+			100 = "ce_elephant_erawan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_falcon
+				}
+			}
+			100 = "ce_falcon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fish_oudh
+				}
+			}
+			100 = "ce_fish_oudh.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_gandaberunda
+				}
+			}
+			100 = "ce_gandaberunda.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_golden_fishes
+				}
+			}
+			100 = "ce_golden_fishes.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_golden_fleece
+				}
+			}
+			100 = "ce_golden_fleece.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_horse
+				}
+			}
+			100 = "ce_horse.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_horse_tribal
+				}
+			}
+			100 = "ce_horse_tribal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_swan
+				}
+			}
+			100 = "ce_swan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_bird_paradise
+				}
+			}
+			100 = "ce_bird_paradise.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_leopard_passant_guardant
+				}
+			}
+			100 = "ce_leopard_passant_guardant.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_corfu
+				}
+			}
+			100 = "ce_lion_corfu.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_judah
+				}
+			}
+			100 = "ce_lion_judah.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_passant_guardant
+				}
+			}
+			100 = "ce_lion_passant_guardant.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_passant_guardant_long
+				}
+			}
+			100 = "ce_lion_passant_guardant_long.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_persia
+				}
+			}
+			100 = "ce_lion_persia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_rampant
+				}
+			}
+			100 = "ce_lion_rampant.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_rampant_batavian
+				}
+			}
+			100 = "ce_lion_rampant_batavian.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_rampant_crowned
+				}
+			}
+			100 = "ce_lion_rampant_crowned.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_rampant_forked_crowned
+				}
+			}
+			100 = "ce_lion_rampant_forked_crowned.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_rampant_per_pale_crowned
+				}
+			}
+			100 = "ce_lion_rampant_per_pale_crowned.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_singa
+				}
+			}
+			100 = "ce_lion_singa.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_sri_lanka
+				}
+			}
+			100 = "ce_lion_sri_lanka.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_statant_guardant
+				}
+			}
+			100 = "ce_lion_statant_guardant.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lion_supporter
+				}
+			}
+			100 = "ce_lion_supporter.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tiger_passant
+				}
+			}
+			100 = "ce_tiger_passant.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cobra_coiled
+				}
+			}
+			100 = "ce_cobra_coiled.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_snow_lion
+				}
+			}
+			100 = "ce_supporter_yalis.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_thunderbird
+				}
+			}
+			100 = "ce_thunderbird.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_unicorn
+				}
+			}
+			100 = "ce_unicorn.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_moors_head
+				}
+			}
+			100 = "ce_moors_head.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wildman
+				}
+			}
+			100 = "ce_wildman.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hand
+				}
+			}
+			100 = "ce_hand.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hand_dreaming
+				}
+			}
+			100 = "ce_hand_dreaming.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_arrow_cross
+				}
+			}
+			100 = "ce_arrow_cross.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_balkenkreuz
+				}
+			}
+			100 = "ce_balkenkreuz.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_auseklis
+				}
+			}
+			100 = "ce_cross_auseklis.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_burgundy
+				}
+			}
+			100 = "ce_cross_burgundy.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_celtic
+				}
+			}
+			100 = "ce_cross_celtic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_cotised
+				}
+			}
+			100 = "ce_cross_cotised.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_couped
+				}
+			}
+			100 = "ce_cross_couped.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_couped_voided
+				}
+			}
+			100 = "ce_cross_couped_voided.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_crosslet
+				}
+			}
+			100 = "ce_cross_crosslet.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_denmark
+				}
+			}
+			100 = "ce_cross_denmark.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_england
+				}
+			}
+			100 = "ce_cross_england.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_england_fimbriated
+				}
+			}
+			100 = "ce_cross_england_fimbriated.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_fatherland_front
+				}
+			}
+			100 = "ce_cross_fatherland_front.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_finland
+				}
+			}
+			100 = "ce_cross_finland.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_finnic
+				}
+			}
+			100 = "ce_cross_finnic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_fleury
+				}
+			}
+			100 = "ce_cross_fleury.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_fourchee
+				}
+			}
+			100 = "ce_cross_fourchee.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_germany_war_ensign
+				}
+			}
+			100 = "ce_cross_germany_war_ensign.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_hlinka
+				}
+			}
+			100 = "ce_cross_hlinka.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_mara
+				}
+			}
+			100 = "ce_cross_mara.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_norway
+				}
+			}
+			100 = "ce_cross_norway.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_occitan
+				}
+			}
+			100 = "ce_cross_occitan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_order_christ
+				}
+			}
+			100 = "ce_cross_order_christ.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_patty
+				}
+			}
+			100 = "ce_cross_patty.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_patty_hollow
+				}
+			}
+			100 = "ce_cross_patty_hollow.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_pointed
+				}
+			}
+			100 = "ce_cross_pointed.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_pommee
+				}
+			}
+			100 = "ce_cross_pommee.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_santiago
+				}
+			}
+			100 = "ce_cross_santiago.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_sardinia
+				}
+			}
+			100 = "ce_cross_sardinia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_st_michael
+				}
+			}
+			100 = "ce_cross_st_michael.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_sweden
+				}
+			}
+			100 = "ce_cross_sweden.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_switzerland
+				}
+			}
+			100 = "ce_cross_switzerland.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_tursas
+				}
+			}
+			100 = "ce_cross_tursas.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cross_wheel
+				}
+			}
+			100 = "ce_cross_wheel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_iron_cross
+				}
+			}
+			100 = "ce_iron_cross.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_buf_emblem
+				}
+			}
+			100 = "ce_buf_emblem.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_parteiadler
+				}
+			}
+			100 = "ce_parteiadler.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fasces
+				}
+			}
+			100 = "ce_fasces.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fasces_horizontal
+				}
+			}
+			100 = "ce_fasces_horizontal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_fasces_lion_head
+				}
+			}
+			100 = "ce_fasces_lion_head.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_labrys
+				}
+			}
+			100 = "ce_labrys.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_labrys_petain
+				}
+			}
+			100 = "ce_labrys_petain.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_labrys_ppf
+				}
+			}
+			100 = "ce_labrys_ppf.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lightning_bolt
+				}
+			}
+			100 = "ce_lightning_bolt.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_lightning_bolt_nacista
+				}
+			}
+			100 = "ce_lightning_bolt_nacista.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_walknut
+				}
+			}
+			100 = "ce_walknut.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wolfsangel
+				}
+			}
+			100 = "ce_wolfsangel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wolfsangel_nsb
+				}
+			}
+			100 = "ce_wolfsangel_nsb.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_triskel
+				}
+			}
+			100 = "ce_triskel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_triskel_wolfsangel
+				}
+			}
+			100 = "ce_triskel_wolfsangel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_and_sickle
+				}
+			}
+			100 = "ce_hammer_and_sickle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_and_sickle_round
+				}
+			}
+			100 = "ce_hammer_and_sickle_round.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_compass_ddr
+				}
+			}
+			100 = "ce_hammer_compass_ddr.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_ddr
+				}
+			}
+			100 = "ce_hammer_ddr.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_hoe
+				}
+			}
+			100 = "ce_hammer_hoe.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_hoe
+				}
+			}
+			100 = "ce_hammer_hoe.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_cogwheel_usa
+				}
+			}
+			100 = "ce_hammer_sickle_cogwheel_usa.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_india
+				}
+			}
+			100 = "ce_hammer_sickle_india.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_india_02
+				}
+			}
+			100 = "ce_hammer_sickle_india_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_italy
+				}
+			}
+			100 = "ce_hammer_sickle_italy.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_star_cogwheel
+				}
+			}
+			100 = "ce_hammer_sickle_star_cogwheel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_star_ussr
+				}
+			}
+			100 = "ce_hammer_sickle_star_ussr.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_05_safcp
+				}
+			}
+			100 = "ce_star_05_safcp.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_star_wreath
+				}
+			}
+			100 = "ce_hammer_sickle_star_wreath.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_sickle_wreath
+				}
+			}
+			100 = "ce_hammer_sickle_wreath.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hammer_wheat
+				}
+			}
+			100 = "ce_hammer_wheat.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_corn_sickle
+				}
+			}
+			100 = "ce_corn_sickle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_star_frame_hammer_sickle
+				}
+			}
+			100 = "ce_star_frame_hammer_sickle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_mining_hammers
+				}
+			}
+			100 = "ce_mining_hammers.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_addorsed_scimitars
+				}
+			}
+			100 = "ce_addorsed_scimitars.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cannon
+				}
+			}
+			100 = "ce_cannon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cogwheel_machete_angola
+				}
+			}
+			100 = "ce_cogwheel_machete_angola.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_corseca_trieste
+				}
+			}
+			100 = "ce_corseca_trieste.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crossed_kris_daggers
+				}
+			}
+			100 = "ce_crossed_kris_daggers.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crossed_kris_daggers_mataram
+				}
+			}
+			100 = "ce_crossed_kris_daggers_mataram.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crossed_scimitars
+				}
+			}
+			100 = "ce_crossed_scimitars.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crossed_scimitars_horizontal
+				}
+			}
+			100 = "ce_crossed_scimitars_horizontal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_outrigger_hook
+				}
+			}
+			100 = "ce_outrigger_hook.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_spearhead
+				}
+			}
+			100 = "ce_spearhead.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_three_arrows_square
+				}
+			}
+			100 = "ce_three_arrows_square.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_trident
+				}
+			}
+			100 = "ce_trident.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_zulfikar
+				}
+			}
+			100 = "ce_zulfikar.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_scimitar
+				}
+			}
+			100 = "ce_scimitar.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_scimitar_pale
+				}
+			}
+			100 = "ce_scimitar_pale.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_chi_rho
+				}
+			}
+			100 = "ce_chi_rho.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_christogram_01
+				}
+			}
+			100 = "ce_christogram_01.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_christogram_02
+				}
+			}
+			100 = "ce_christogram_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_christogram_03
+				}
+			}
+			100 = "ce_christogram_03.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_bukhara_communist
+				}
+			}
+			100 = "ce_legend_bukhara_communist.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_fidji
+				}
+			}
+			100 = "ce_legend_fidji.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_jamaica
+				}
+			}
+			100 = "ce_legend_jamaica.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_kutch
+				}
+			}
+			100 = "ce_legend_kutch.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_lanfang
+				}
+			}
+			100 = "ce_legend_lanfang.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_logograms_japan
+				}
+			}
+			100 = "ce_logograms_japan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_mysore
+				}
+			}
+			100 = "ce_legend_mysore.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_nauru
+				}
+			}
+			100 = "ce_legend_nauru.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_new_hebrides
+				}
+			}
+			100 = "ce_legend_new_hebrides.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_paraguay
+				}
+			}
+			100 = "ce_legend_paraguay.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_legend_solomon_islands
+				}
+			}
+			100 = "ce_legend_solomon_islands.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_mahdist_legend
+				}
+			}
+			100 = "ce_mahdist_legend.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shahada
+				}
+			}
+			100 = "ce_shahada.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shahada_02
+				}
+			}
+			100 = "ce_shahada_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shahada_and_sword
+				}
+			}
+			100 = "ce_shahada_and_sword.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_takbir
+				}
+			}
+			100 = "ce_takbir.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_irish_republic
+				}
+			}
+			100 = "ce_irish_republic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_a
+				}
+			}
+			100 = "ce_letter_a.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_b
+				}
+			}
+			100 = "ce_letter_b.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_b_cyrillic
+				}
+			}
+			100 = "ce_letter_b_cyrillic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_beta
+				}
+			}
+			100 = "ce_letter_beta.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_c
+				}
+			}
+			100 = "ce_letter_c.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_c_serif
+				}
+			}
+			100 = "ce_letter_c_serif.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_d
+				}
+			}
+			100 = "ce_letter_d.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_d_cyrillic
+				}
+			}
+			100 = "ce_letter_d_cyrillic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_e
+				}
+			}
+			100 = "ce_letter_e.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_e_serif
+				}
+			}
+			100 = "ce_letter_e_serif.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_f
+				}
+			}
+			100 = "ce_letter_f.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_g
+				}
+			}
+			100 = "ce_letter_g.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_h
+				}
+			}
+			100 = "ce_letter_h.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_i
+				}
+			}
+			100 = "ce_letter_i.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_i_serif
+				}
+			}
+			100 = "ce_letter_i_serif.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_j
+				}
+			}
+			100 = "ce_letter_j.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_k
+				}
+			}
+			100 = "ce_letter_k.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_l
+				}
+			}
+			100 = "ce_letter_l.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_m
+				}
+			}
+			100 = "ce_letter_m.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_n
+				}
+			}
+			100 = "ce_letter_n.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_n_cyrillic
+				}
+			}
+			100 = "ce_letter_n_cyrillic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_o
+				}
+			}
+			100 = "ce_letter_o.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_p
+				}
+			}
+			100 = "ce_letter_p.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_q
+				}
+			}
+			100 = "ce_letter_q.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_r
+				}
+			}
+			100 = "ce_letter_r.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_r_cyrillic
+				}
+			}
+			100 = "ce_letter_r_cyrillic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_s
+				}
+			}
+			100 = "ce_letter_s.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_s_cyrillic
+				}
+			}
+			100 = "ce_letter_s_cyrillic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_t
+				}
+			}
+			100 = "ce_letter_t.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_u
+				}
+			}
+			100 = "ce_letter_u.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_v
+				}
+			}
+			100 = "ce_letter_v.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_v_cyrillic
+				}
+			}
+			100 = "ce_letter_v_cyrillic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_v_serif
+				}
+			}
+			100 = "ce_letter_v_serif.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_w
+				}
+			}
+			100 = "ce_letter_w.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_x
+				}
+			}
+			100 = "ce_letter_x.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_y
+				}
+			}
+			100 = "ce_letter_y.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_letter_z
+				}
+			}
+			100 = "ce_letter_z.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_monogram_tonga
+				}
+			}
+			100 = "ce_monogram_tonga.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_rune_algiz
+				}
+			}
+			100 = "ce_rune_algiz.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_rune_hagal
+				}
+			}
+			100 = "ce_rune_hagal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_rune_tiwaz
+				}
+			}
+			100 = "ce_rune_tiwaz.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sigma
+				}
+			}
+			100 = "ce_sigma.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_0
+				}
+			}
+			100 = "ce_number_0.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_1
+				}
+			}
+			100 = "ce_number_1.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_2
+				}
+			}
+			100 = "ce_number_2.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_3
+				}
+			}
+			100 = "ce_number_3.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_4
+				}
+			}
+			100 = "ce_number_4.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_5
+				}
+			}
+			100 = "ce_number_5.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_6
+				}
+			}
+			100 = "ce_number_6.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_7
+				}
+			}
+			100 = "ce_number_7.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_8
+				}
+			}
+			100 = "ce_number_8.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_number_9
+				}
+			}
+			100 = "ce_number_9.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_armillary_sphere
+				}
+			}
+			100 = "ce_armillary_sphere.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_banner_escutcheon
+				}
+			}
+			100 = "ce_banner_escutcheon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_banner_wurttemberg
+				}
+			}
+			100 = "ce_banner_wurttemberg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_afghanistan
+				}
+			}
+			100 = "ce_coa_afghanistan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_australia
+				}
+			}
+			100 = "ce_coa_australia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_brunswick
+				}
+			}
+			100 = "ce_coa_brunswick.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_costa_rica
+				}
+			}
+			100 = "ce_coa_costa_rica.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_frame_austria
+				}
+			}
+			100 = "ce_coa_frame_austria.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_frame_ceylon
+				}
+			}
+			100 = "ce_coa_frame_ceylon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_frame_costa_rica
+				}
+			}
+			100 = "ce_coa_frame_costa_rica.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_frame_ddr
+				}
+			}
+			100 = "ce_coa_frame_ddr.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_frame_mexico
+				}
+			}
+			100 = "ce_coa_frame_mexico.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_frame_natal
+				}
+			}
+			100 = "ce_coa_frame_natal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_haiti
+				}
+			}
+			100 = "ce_coa_haiti.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_oldenburg_delmenhorst
+				}
+			}
+			100 = "ce_coa_oldenburg_delmenhorst.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_roundel_austria
+				}
+			}
+			100 = "ce_coa_roundel_austria.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_saf_hope_allegory
+				}
+			}
+			100 = "ce_coa_saf_hope_allegory.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_saf_shield
+				}
+			}
+			100 = "ce_coa_saf_shield.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_saf_wagon
+				}
+			}
+			100 = "ce_coa_saf_wagon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_saf_wildebeests
+				}
+			}
+			100 = "ce_coa_saf_wildebeests.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_shield_sweden
+				}
+			}
+			100 = "ce_coa_shield_sweden.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_sierra_leone_bg
+				}
+			}
+			100 = "ce_coa_sierra_leone_bg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_temple_ceylon
+				}
+			}
+			100 = "ce_coa_temple_ceylon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_coa_wurttemberg
+				}
+			}
+			100 = "ce_coa_wurttemberg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_collar_golden_fleece
+				}
+			}
+			100 = "ce_collar_golden_fleece.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crancelin
+				}
+			}
+			100 = "ce_crancelin.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crest_helmet
+				}
+			}
+			100 = "ce_crest_helmet.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crest_mysore
+				}
+			}
+			100 = "ce_crest_mysore.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crest_torse
+				}
+			}
+			100 = "ce_crest_torse.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_ducal
+				}
+			}
+			100 = "ce_crown_ducal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_imperial_austria
+				}
+			}
+			100 = "ce_crown_imperial_austria.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_imperial_russia
+				}
+			}
+			100 = "ce_crown_imperial_russia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_lappet
+				}
+			}
+			100 = "ce_crown_lappet.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_oudh
+				}
+			}
+			100 = "ce_crown_oudh.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_simple
+				}
+			}
+			100 = "ce_crown_simple.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_st_edward
+				}
+			}
+			100 = "ce_crown_st_edward.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_swedish
+				}
+			}
+			100 = "ce_crown_swedish.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_crown_tudor
+				}
+			}
+			100 = "ce_crown_tudor.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_mitre
+				}
+			}
+			100 = "ce_mitre.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_decor_sikkim_1
+				}
+			}
+			100 = "ce_decor_sikkim_1.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_decor_sikkim_2
+				}
+			}
+			100 = "ce_decor_sikkim_2.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_decor_sikkim_3
+				}
+			}
+			100 = "ce_decor_sikkim_3.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_double_tressure
+				}
+			}
+			100 = "ce_double_tressure.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_flag_supporter_tricolor_vertical
+				}
+			}
+			100 = "ce_flag_supporter_tricolor_vertical.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_flame_canada_nup
+				}
+			}
+			100 = "ce_flame_canada_nup.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_ddr_flags_bicolour
+				}
+			}
+			100 = "ce_frame_ddr_flags_bicolour.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_ddr_flags_tricolour
+				}
+			}
+			100 = "ce_frame_ddr_flags_tricolour.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_frame_ddr_sun_bg
+				}
+			}
+			100 = "ce_frame_ddr_sun_bg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_galley
+				}
+			}
+			100 = "ce_galley.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_harp
+				}
+			}
+			100 = "ce_harp.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_harp_ireland
+				}
+			}
+			100 = "ce_harp_ireland.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_key_bremen
+				}
+			}
+			100 = "ce_key_bremen.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_keys_st_peter
+				}
+			}
+			100 = "ce_keys_st_peter.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_keys_st_peter_crozier
+				}
+			}
+			100 = "ce_keys_st_peter_crozier.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_keys_st_peter_knot
+				}
+			}
+			100 = "ce_keys_st_peter_knot.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_ribbon
+				}
+			}
+			100 = "ce_ribbon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_royal_mantle
+				}
+			}
+			100 = "ce_royal_mantle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sacred_heart
+				}
+			}
+			100 = "ce_sacred_heart.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_accolade
+				}
+			}
+			100 = "ce_shield_accolade.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_accolade_02
+				}
+			}
+			100 = "ce_shield_accolade_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_accolade_03
+				}
+			}
+			100 = "ce_shield_accolade_03.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_accolade_modena
+				}
+			}
+			100 = "ce_shield_accolade_modena.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_african
+				}
+			}
+			100 = "ce_shield_african.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_anhalt_per_pale
+				}
+			}
+			100 = "ce_shield_anhalt_per_pale.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_baden
+				}
+			}
+			100 = "ce_shield_baden.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_checkered
+				}
+			}
+			100 = "ce_shield_checkered.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_cross
+				}
+			}
+			100 = "ce_shield_cross.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_german_round
+				}
+			}
+			100 = "ce_shield_german_round.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_german_round_fess
+				}
+			}
+			100 = "ce_shield_german_round_fess.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_german_round_per_fess
+				}
+			}
+			100 = "ce_shield_german_round_per_fess.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_heater
+				}
+			}
+			100 = "ce_shield_heater.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_heater_border
+				}
+			}
+			100 = "ce_shield_heater_border.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_heater_fess
+				}
+			}
+			100 = "ce_shield_heater_fess.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_heater_large_barry_05_bottom
+				}
+			}
+			100 = "ce_shield_heater_large_barry_05_bottom.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_heater_large_per_fess
+				}
+			}
+			100 = "ce_shield_heater_large_per_fess.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_heater_sierra_leone
+				}
+			}
+			100 = "ce_shield_heater_sierra_leone.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_hesse
+				}
+			}
+			100 = "ce_shield_hesse.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_iberian
+				}
+			}
+			100 = "ce_shield_iberian.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_iberian_cross_thin
+				}
+			}
+			100 = "ce_shield_iberian_cross_thin.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_new_zealand
+				}
+			}
+			100 = "ce_shield_new_zealand.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_plc
+				}
+			}
+			100 = "ce_shield_plc.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_round_per_pale
+				}
+			}
+			100 = "ce_shield_round_per_pale.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_saxony
+				}
+			}
+			100 = "ce_shield_saxony.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_shield_wave_overlay
+				}
+			}
+			100 = "ce_shield_wave_overlay.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_ship_manchester
+				}
+			}
+			100 = "ce_ship_manchester.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wreath
+				}
+			}
+			100 = "ce_wreath.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wreath_peru
+				}
+			}
+			100 = "ce_wreath_peru.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wreath_thin
+				}
+			}
+			100 = "ce_wreath_thin.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_laurel
+				}
+			}
+			100 = "ce_laurel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_laurel_circled
+				}
+			}
+			100 = "ce_laurel_circled.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_laurel_knot
+				}
+			}
+			100 = "ce_laurel_knot.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_ermine_spot
+				}
+			}
+			100 = "ce_ermine_spot.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_angkor_vat
+				}
+			}
+			100 = "ce_angkor_vat.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_ashanti_golden_stool
+				}
+			}
+			100 = "ce_ashanti_golden_stool.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_beehive
+				}
+			}
+			100 = "ce_beehive.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_buddha
+				}
+			}
+			100 = "ce_buddha.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_castle
+				}
+			}
+			100 = "ce_castle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_castle_charge_kutch
+				}
+			}
+			100 = "ce_castle_charge_kutch.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_castle_hamburg
+				}
+			}
+			100 = "ce_castle_hamburg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_chains
+				}
+			}
+			100 = "ce_chains.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_chakra_siam
+				}
+			}
+			100 = "ce_chakra_siam.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_conch_shell
+				}
+			}
+			100 = "ce_conch_shell.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_cornucopias
+				}
+			}
+			100 = "ce_cornucopias.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_dharmachakra
+				}
+			}
+			100 = "ce_dharmachakra.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_dharmachakra_india
+				}
+			}
+			100 = "ce_dharmachakra_india.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_endless_knot
+				}
+			}
+			100 = "ce_endless_knot.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eryr_gwyn
+				}
+			}
+			100 = "ce_eryr_gwyn.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_eternal_knot
+				}
+			}
+			100 = "ce_eternal_knot.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_falanga
+				}
+			}
+			100 = "ce_falanga.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_hiawathas_belt
+				}
+			}
+			100 = "ce_hiawathas_belt.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_infinity
+				}
+			}
+			100 = "ce_infinity.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_inuksuk
+				}
+			}
+			100 = "ce_inuksuk.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_kanaga
+				}
+			}
+			100 = "ce_kanaga.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_kanaka
+				}
+			}
+			100 = "ce_kanaka.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_katar
+				}
+			}
+			100 = "ce_katar.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_khanda
+				}
+			}
+			100 = "ce_khanda.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_kolovrat
+				}
+			}
+			100 = "ce_kolovrat.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_korea_kwae
+				}
+			}
+			100 = "ce_korea_kwae.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_korea_taegeuk
+				}
+			}
+			100 = "ce_korea_taegeuk.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_masai_shield
+				}
+			}
+			100 = "ce_masai_shield.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_native_american_pattern_diamond
+				}
+			}
+			100 = "ce_native_american_pattern_diamond.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_nguni_shield
+				}
+			}
+			100 = "ce_nguni_shield.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_nguni_shield_02
+				}
+			}
+			100 = "ce_nguni_shield_02.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_nguni_shield_03
+				}
+			}
+			100 = "ce_nguni_shield_03.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_nguni_shield_04
+				}
+			}
+			100 = "ce_nguni_shield_04.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_pattern_bukhara
+				}
+			}
+			100 = "ce_pattern_bukhara.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_platform_siam
+				}
+			}
+			100 = "ce_platform_siam.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_soyombo
+				}
+			}
+			100 = "ce_soyombo.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_soyombo_frame
+				}
+			}
+			100 = "ce_soyombo_frame.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_soyombo_modern
+				}
+			}
+			100 = "ce_soyombo_modern.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sulu
+				}
+			}
+			100 = "ce_sulu.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_sumka_stylized_eagle
+				}
+			}
+			100 = "ce_sumka_stylized_eagle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tamga_idel_ural
+				}
+			}
+			100 = "ce_tamga_idel_ural.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tamga_tatar
+				}
+			}
+			100 = "ce_tamga_tatar.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_tao_people
+				}
+			}
+			100 = "ce_tao_people.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_temple_thai
+				}
+			}
+			100 = "ce_temple_thai.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_totem_kanak
+				}
+			}
+			100 = "ce_totem_kanak.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_triskelion_double
+				}
+			}
+			100 = "ce_triskelion_double.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_triskelion_sicily
+				}
+			}
+			100 = "ce_triskelion_sicily.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_umbrella
+				}
+			}
+			100 = "ce_umbrella.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_umbrella_champasak
+				}
+			}
+			100 = "ce_umbrella_champasak.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_vlajka_emblem
+				}
+			}
+			100 = "ce_vlajka_emblem.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:colored_emblem = flag:ce_wagon
+				}
+			}
+			100 = "ce_wagon.dds"
+		}
+	}
+	textured_emblem = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_buffalo_painted_skull
+				}
+			}
+			100 = "te_buffalo_painted_skull.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_austria
+				}
+			}
+			100 = "te_coa_austria.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_bahamas
+				}
+			}
+			100 = "te_coa_bahamas.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_bolivia
+				}
+			}
+			100 = "te_coa_bolivia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_brazil
+				}
+			}
+			100 = "te_coa_brazil.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_canada
+				}
+			}
+			100 = "te_coa_canada.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_central_america
+				}
+			}
+			100 = "te_coa_central_america.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_chile
+				}
+			}
+			100 = "te_coa_chile.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_colombia
+				}
+			}
+			100 = "te_coa_colombia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_colombia_lesser
+				}
+			}
+			100 = "te_coa_colombia_lesser.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_cuba
+				}
+			}
+			100 = "te_coa_cuba.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_dominican_republic
+				}
+			}
+			100 = "te_coa_dominican_republic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_france_greater
+				}
+			}
+			100 = "te_coa_france_greater.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_guatemala
+				}
+			}
+			100 = "te_coa_guatemala.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_gwalior
+				}
+			}
+			100 = "te_coa_gwalior.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_italia
+				}
+			}
+			100 = "te_coa_italia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_jamaica_supporters
+				}
+			}
+			100 = "te_coa_jamaica_supporters.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_lucca
+				}
+			}
+			100 = "te_coa_lucca.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_mantle
+				}
+			}
+			100 = "te_coa_mantle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_mexico
+				}
+			}
+			100 = "te_coa_mexico.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_michigan
+				}
+			}
+			100 = "te_coa_michigan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_modena
+				}
+			}
+			100 = "te_coa_modena.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_napoleon_iii
+				}
+			}
+			100 = "te_coa_napoleon_iii.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_newfoundland
+				}
+			}
+			100 = "te_coa_newfoundland.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_nicaragua
+				}
+			}
+			100 = "te_coa_nicaragua.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_nova_scotia
+				}
+			}
+			100 = "te_coa_nova_scotia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_oldenburg
+				}
+			}
+			100 = "te_coa_oldenburg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_oldenburg
+				}
+			}
+			100 = "te_coa_oldenburg.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_parma
+				}
+			}
+			100 = "te_coa_parma.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_peru
+				}
+			}
+			100 = "te_coa_peru.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_portugal
+				}
+			}
+			100 = "te_coa_portugal.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_portuguese_republic
+				}
+			}
+			100 = "te_coa_portuguese_republic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_schleswig_holstein
+				}
+			}
+			100 = "te_coa_schleswig_holstein.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_spain
+				}
+			}
+			100 = "te_coa_spain.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_spanish_republic
+				}
+			}
+			100 = "te_coa_spanish_republic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_spanish_republic
+				}
+			}
+			100 = "te_coa_spanish_republic.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_two_sicilies
+				}
+			}
+			100 = "te_coa_two_sicilies.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_uruguay
+				}
+			}
+			100 = "te_coa_uruguay.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_usa
+				}
+			}
+			100 = "te_coa_usa.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_coa_venezuela
+				}
+			}
+			100 = "te_coa_venezuela.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_crow_star
+				}
+			}
+			100 = "te_crow_star.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_crown
+				}
+			}
+			100 = "te_crown.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_crown_cut
+				}
+			}
+			100 = "te_crown_cut.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_crown_imperial_brazil
+				}
+			}
+			100 = "te_crown_imperial_brazil.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_crown_imperial_eagles
+				}
+			}
+			100 = "te_crown_imperial_eagles.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_crown_imperial_russia
+				}
+			}
+			100 = "te_crown_imperial_russia.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_dharmachakra_sikkim
+				}
+			}
+			100 = "te_dharmachakra_sikkim.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_austria_crowned
+				}
+			}
+			100 = "te_eagle_austria_crowned.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_lubeck_shield
+				}
+			}
+			100 = "te_eagle_lubeck_shield.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_mexico
+				}
+			}
+			100 = "te_eagle_mexico.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_prussia_early
+				}
+			}
+			100 = "te_eagle_prussia_early.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_prussia_monogram_crown
+				}
+			}
+			100 = "te_eagle_prussia_monogram_crown.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_russia_crowned
+				}
+			}
+			100 = "te_eagle_russia_crowned.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_usa
+				}
+			}
+			100 = "te_eagle_usa.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_eagle_wallachia_crown
+				}
+			}
+			100 = "te_eagle_wallachia_crown.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_german_state_crown
+				}
+			}
+			100 = "te_german_state_crown.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_keys_st_peter
+				}
+			}
+			100 = "te_keys_st_peter.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_lakota_medicine_wheel
+				}
+			}
+			100 = "te_lakota_medicine_wheel.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_lion_hesse
+				}
+			}
+			100 = "te_lion_hesse.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_lion_san_marco
+				}
+			}
+			100 = "te_lion_san_marco.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_louisiana_swan
+				}
+			}
+			100 = "te_louisiana_swan.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_necklace_st_george_parma
+				}
+			}
+			100 = "te_necklace_st_george_parma.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_necklace_two_sicilies
+				}
+			}
+			100 = "te_necklace_two_sicilies.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_peacock
+				}
+			}
+			100 = "te_peacock.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_st_george_and_the_dragon
+				}
+			}
+			100 = "te_st_george_and_the_dragon.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_star_india
+				}
+			}
+			100 = "te_star_india.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_usa_bald_eagle
+				}
+			}
+			100 = "te_usa_bald_eagle.dds"
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:textured_emblem = flag:te_vytis
+				}
+			}
+			100 = "te_vytis.dds"
+		}
+	}
 }

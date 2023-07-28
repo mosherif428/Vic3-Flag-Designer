@@ -480,7 +480,7 @@
 			parentanchor = top|hcenter
 			tab_button = {
 				text = "Background"
-				datacontext = "[GetGlobalList('all_patterns')]"
+				datamodel = "[GetGlobalList('all_patterns')]"
 
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'background_panel')]"
 
@@ -490,7 +490,7 @@
 
 			tab_button = {
 				text = "Emblem Layout"
-				datacontext = "[GetGlobalList('emblem_layouts')]"
+				datamodel = "[GetGlobalList('emblem_layouts')]"
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_layout')]"
 				down = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_layout')]"
 
@@ -499,7 +499,7 @@
 
 			tab_button = {
 				text = "Emblem Instances"
-				datacontext = "[GetGlobalList('all_emblems')]"
+				datamodel = "[GetGlobalList('all_emblems')]"
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_instances')]"
 
 				down = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_instances')]"
