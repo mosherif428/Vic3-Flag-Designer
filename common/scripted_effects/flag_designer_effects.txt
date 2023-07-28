@@ -1,55 +1,110 @@
 initial_coa_effect = {
     set_variable = {
         name = pattern_bg
-        value = "[CoatofArms.GetFlag.pattern]"
+        value = "[CoatofArms.GetTexture.pattern]"
     }
     set_variable = {
         name = pattern_color_0
-        value = "[CoatofArms.GetFlag.color1]"
+        value = "[CoatofArms.GetTexture.color1]"
     }
     set_variable = {
         name = pattern_color_1
-        value = "[CoatofArms.GetFlag.color2]"
+        value = "[CoatofArms.GetTexture.color2]"
     }
     set_variable = {
         name = pattern_color_2
-        value = "[CoatofArms.GetFlag.color3]"
+        value = "[CoatofArms.GetTexture.color3]"
     }
     set_variable = {
         name = colored_emblem
-        value = "[CoatofArms.GetFlag.colored_emblem.texture]"
+        value = "[CoatofArms.GetTexture.colored_emblem.texture]"
     }
     set_variable = {
         name = colored_emblem_color_0
-        value = "[CoatofArms.GetFlag.colored_emblem.color1]"
+        value = "[CoatofArms.GetTexture.colored_emblem.color1]"
     }
     set_variable = {
         name = colored_emblem_color_1
-        value = "[CoatofArms.GetFlag.colored_emblem.color2]"
+        value = "[CoatofArms.GetTexture.colored_emblem.color2]"
     }
     set_variable = {
         name = colored_emblem_color_2
-        value = "[CoatofArms.GetFlag.colored_emblem.color3]"
+        value = "[CoatofArms.GetTexture.colored_emblem.color3]"
     }
     set_variable = {
         name = colored_emblem_scale
-        value = "[CoatofArms.GetFlag.colored_emblem.instance.scale]"
+        value = "[CoatofArms.GetTexture.colored_emblem.instance.scale]"
     }
     set_variable = {
         name = colored_emblem_position
-        value = "[CoatofArms.GetFlag.colored_emblem.instance.position]"
+        value = "[CoatofArms.GetTexture.colored_emblem.instance.position]"
     }
     set_variable = {
         name = textured_emblem
-        value = "[CoatofArms.GetFlag.textured_emblem.texture]"
+        value = "[CoatofArms.GetTexture.textured_emblem.texture]"
     }
     set_variable = {
         name = textured_emblem_scale
-        value = "[CoatofArms.GetFlag.textured_emblem.instance.scale]"
+        value = "[CoatofArms.GetTexture.textured_emblem.instance.scale]"
     }
     set_variable = {
         name = textured_emblem_position
-        value = "[CoatofArms.GetFlag.texturedemblem.instance.position]"
+        value = "[CoatofArms.GetTexture.texturedemblem.instance.position]"
+    }
+
+}
+changing_coa_effect = {
+    set_variable = {
+        name = pattern_bg
+        value = "[GetVariableSystem('pattern_bg')]"
+    }
+    set_variable = {
+        name = pattern_color_0
+        value = "[GetVariableSystem('pattern_color_0')]"
+    }
+    set_variable = {
+        name = pattern_color_1
+        value = "[GetVariableSystem('pattern_color_1')]"
+    }
+    set_variable = {
+        name = pattern_color_2
+        value = "[GetVariableSystem('pattern_color_2')]"
+    }
+    set_variable = {
+        name = colored_emblem
+        value = "[GetVariableSystem('colored_emblem')]"
+    }
+    set_variable = {
+        name = colored_emblem_color_0
+        value = "[GetVariableSystem('colored_emblem_color_0')]"
+    }
+    set_variable = {
+        name = colored_emblem_color_1
+        value = "[GetVariableSystem('colored_emblem_color_1')]"
+    }
+    set_variable = {
+        name = colored_emblem_color_2
+        value = "[GetVariableSystem('colored_emblem_color_2')]"
+    }
+    set_variable = {
+        name = colored_emblem_scale
+        value = "[GetVariableSystem('colored_emblem_scale')]"
+    }
+    set_variable = {
+        name = colored_emblem_position
+        value = "[GetVariableSystem('colored_emblem_position')]"
+    }
+    set_variable = {
+        name = textured_emblem
+        value = "[GetVariableSystem('textured_emblem')]"
+    }
+    set_variable = {
+        name = textured_emblem_scale
+        value = "[GetVariableSystem('textured_emblem_scale')]"
+    }
+    set_variable = {
+        name = textured_emblem_position
+        value = "[GetVariableSystem('textured_emblem_position')]"
     }
 
 }

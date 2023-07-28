@@ -5,6 +5,13 @@
 	}
 }
 
+changing_coa_effect = {
+	scope = flag
+	effect = {
+		changing_coa_effect = yes
+	}
+}
+
 change_pattern = {
 	scope = country
 	saved_scopes = { emblem }
