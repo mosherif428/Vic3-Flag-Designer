@@ -327,6 +327,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_solid.tga"
+			set_variable = {
+				name = pattern_button_number
+				value = 0
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -335,6 +339,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_checkers_01.tga"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -343,6 +351,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_horizontal_split_01.tga"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -351,6 +363,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_vertical_split_01.tga"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -359,6 +375,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_double.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -367,6 +387,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_2.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -375,6 +399,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_2_double.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -383,6 +411,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_2_vertical.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -391,6 +423,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_3.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -399,6 +435,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_3_decorated.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -407,6 +447,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_3_double.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -415,6 +459,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_of_4.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -423,6 +471,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_outlined_thin.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -431,6 +483,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_triangles.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -439,6 +495,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_triangles_morocco.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -447,6 +507,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_two_stripes.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -455,6 +519,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_venice.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -463,6 +531,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_01.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -471,6 +543,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_02.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -479,6 +555,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_03.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -487,6 +567,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_04.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -495,6 +579,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_05.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -503,6 +591,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_06.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -511,6 +603,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_07.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -519,6 +615,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_border_west_africa_08.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -527,6 +627,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_circle.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -535,6 +639,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_cross.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -543,6 +651,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_gironny_8.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -551,6 +663,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_gironny_12.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -559,6 +675,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_gironny_12_tricolor.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -567,6 +687,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_gironny_16.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -575,6 +699,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_gironny_16_center.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -583,6 +711,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_gironny_32.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -591,6 +723,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_large_bend.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -599,6 +735,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_large_bend_sinister.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -607,6 +747,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_lozengy_bend.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -615,6 +759,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_per_bend.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -623,6 +771,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_per_bend_sinister.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -631,6 +783,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_per_saltire.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -639,6 +795,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_rhombus.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -647,6 +807,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_shield_heater.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -655,6 +819,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_two_stripes_fimbriated.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -663,6 +831,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_verical_bicolor_offset.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 		special_selection = {
 			trigger = {
@@ -671,6 +843,10 @@ pattern_lists = {
 				}
 			}
 			100 = "pattern_verical_bicolor_third.dds"
+			change_variable = {
+				name = pattern_button_number
+				add = 1
+			}
 		}
 	}
 }

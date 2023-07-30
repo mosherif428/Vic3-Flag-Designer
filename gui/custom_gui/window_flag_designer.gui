@@ -78,9 +78,9 @@
 					name = "finish_button"
 
 					text = "FINISH"
-					enabled = "[HouseCustomizationWindow.CanClickFinish]"
-					tooltip = "[HouseCustomizationWindow.GetCanClickFinishText]"
-					onclick = "[HouseCustomizationWindow.OnClickFinish]"
+					enabled = "[]"
+					tooltip = "[]"
+					onclick = "[]"
 				}
 			}
 		}

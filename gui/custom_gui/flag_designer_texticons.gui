@@ -1,0 +1,9 @@
+texticon = { 
+	icon = icon_pattern_border_of_2
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/all_patterns.dds"
+		frame = 5
+		size = { 78 51 }
+		fontsize = 16
+	}
+}

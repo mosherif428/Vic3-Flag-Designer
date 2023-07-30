@@ -1,3 +1,10 @@
+pattern_icons_effect = {
+    set_variable = {
+        name = "[GetGlobalList('all_patterns').GetName]'_icon'"
+        value = "[GetScriptedGui('pattern_list').item.GetValue]"
+    }
+}
+
 initial_coa_effect = {
     set_variable = {
         name = pattern_bg
