@@ -1,9 +1,5250 @@
+﻿texticon = { 
+	icon = icon_pattern_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_solid.tga"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_checkers_01
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_checkers_01.tga"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_horizontal_split_01
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_horizontal_split_01.tga"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_vertical_split_01
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_vertical_split_01.tga"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_double
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_double.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
 texticon = { 
 	icon = icon_pattern_border_of_2
 	iconsize = { 
-		texture = "gfx/interface/icons/flag_designer_icons/all_patterns.dds"
-		frame = 5
-		size = { 78 51 }
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_2.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_of_2_double
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_2_double.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_of_2_vertical
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_2_vertical.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_of_3
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_3.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_of_3_decorated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_3_decorated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_of_3_double
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_3_double.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_of_4
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_of_4.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_outlined_thin
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_outlined_thin.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_triangles
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_triangles.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_triangles_morocco
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_triangles_morocco.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_two_stripes
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_two_stripes.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_venice
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_venice.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_01
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_01.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_03
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_03.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_04
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_04.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_05
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_05.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_06
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_06.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_07
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_07.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_border_west_africa_08
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_border_west_africa_08.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_circle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_circle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_cross
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_cross.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_gironny_8
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_gironny_8.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_gironny_12
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_gironny_12.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_gironny_12_tricolor
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_gironny_12_tricolor.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_gironny_16
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_gironny_16.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_gironny_16_center
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_gironny_16_center.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_gironny_32
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_gironny_32.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_large_bend
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_large_bend.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_large_bend_senester
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_large_bend_senester.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_lozengy_bend
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_lozengy_bend.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_per_bend
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_per_bend.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_per_bend_senester
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_per_bend_senester.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_per_saltire
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_per_saltire.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_rhombus
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_rhombus.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_shield_heater
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_shield_heater.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_two_stripes_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_two_stripes_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_verical_bicolor_offset
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_verical_bicolor_offset.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_pattern_verical_bicolor_third
+	iconsize = { 
+		texture = "gfx/coat_of_arms/patterns/pattern_verical_bicolor_third.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+
+########### EMBLEMS ###########
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bend_dexter
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bend_dexter.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bend_dexter_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bend_dexter_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bend_sinister
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bend_sinister.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bend_sinister_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bend_sinister_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bends_chief_manchester
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bends_chief_manchester.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bicolor_bottom
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bicolor_bottom.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bicolor_left
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bicolor_left.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bicolor_left_third
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bicolor_left_third.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bicolor_left_third_indented
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bicolor_left_third_indented.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bicolor_right
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bicolor_right.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bicolor_top
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bicolor_top.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_canton
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_canton.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tribar
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tribar.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_bend
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_bend.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_doubled
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_doubled.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_fimbriated_large
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_fimbriated_large.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_fimbriated_thin
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_fimbriated_thin.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_horizontal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_horizontal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_horizontal_thick
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_horizontal_thick.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_thick
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_thick.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tricolor_vertical
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_vertical.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hexacolor_horizontal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hexacolor_horizontal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_nonacolor_horizontal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_nonacolor_horizontal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_per_cross
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_per_cross.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_per_saltire
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_per_saltire.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_per_saltire_counterchanged
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_per_saltire_counterchanged.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_quarterly_per_fess_wavy
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_quarterly_per_fess_wavy.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fess_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fess_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_pall_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_pall_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_saltire
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_saltire.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_saltire_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_saltire_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_saltire_fimbriated_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_saltire_fimbriated_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripe_bottom
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripe_bottom.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripe_bottom_nkp
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripe_bottom_nkp.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripe_bottom_raised
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripe_bottom_raised.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripe_center
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripe_center.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_02_bottom_karelia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_02_bottom_karelia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_02_bottom_lithuania
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_02_bottom_lithuania.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_02_bottom_tajik
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_02_bottom_tajik.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_02_center
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_02_center.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_03_center
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_03_center.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_03_middle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_03_middle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_04
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_04.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_05
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_05.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_06
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_06.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_07
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_07.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_08
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_08.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_08_hawaii
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_08_hawaii.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_09
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_09.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_9
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_9.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_10
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_10.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_10_alternating
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_10_alternating.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_11
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_11.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_12
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_12.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stripes_13
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stripes_13.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_ceylon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_ceylon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_checkered
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_checkered.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_compony
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_compony.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_decor_india
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_decor_india.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_of_3_sikkim
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_of_3_sikkim.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_orle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_orle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_overlord
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_overlord.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_border_sikkim
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_border_sikkim.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_04
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_04.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_05
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_05.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_06
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_06.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_08
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_08.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_10
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_10.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_16
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_16.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_20
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_20.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checker_24
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checker_24.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_checkered_orle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_checkered_orle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_chevron
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_chevron.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_circle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_circle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_circle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_circle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_circle_doted
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_circle_doted.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_circle_outline
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_circle_outline.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_circle_per_fess
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_circle_per_fess.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_circle_roundel_triangles
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_circle_roundel_triangles.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_circle_triangles
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_circle_triangles.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_delta
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_delta.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_octagon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_octagon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_square
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_square.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_star
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_star.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wiphala
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wiphala.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_waves
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_waves.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_waves_estonia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_waves_estonia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_waves_latvia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_waves_latvia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fleur_de_lis
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fleur_de_lis.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fleur_quebec
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fleur_quebec.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lotus
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lotus.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lotus_base
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lotus_base.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_chrysanthemum_japan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_chrysanthemum_japan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_maple_leaf
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_maple_leaf.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_maple_leaf_canada
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_maple_leaf_canada.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_maple_leafs
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_maple_leafs.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_palm_tree
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_palm_tree.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tree_new_england
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tree_new_england.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cedar_lebanon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cedar_lebanon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_saf_tree
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_saf_tree.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_pattern_flower
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_pattern_flower.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_koru
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_koru.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_pineapple
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_pineapple.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_pomegranate
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_pomegranate.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wheat_garb
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wheat_garb.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_clouds_china_01
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_clouds_china_01.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_clouds_china_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_clouds_china_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_clouds_china_03
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_clouds_china_03.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_celestial_sphere_brazil
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_celestial_sphere_brazil.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_face
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_face.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_face_gwalior
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_face_gwalior.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_of_may
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_of_may.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_peru
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_peru.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_philippines
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_philippines.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_sikh
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_sikh.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sunburst
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sunburst.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_comanche_sun
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_comanche_sun.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_ddr_sun_bg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_ddr_sun_bg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_rising_sun
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_rising_sun.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_xia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_xia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sol_de_mayo
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sol_de_mayo.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_inti
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_inti.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_southern_cross_australia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_southern_cross_australia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_southern_cross_brazil
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_southern_cross_brazil.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_southern_cross_brazil_tilted
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_southern_cross_brazil_tilted.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_southern_cross_new_zealand
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_southern_cross_new_zealand.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_southern_cross_variant
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_southern_cross_variant.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_04
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_04.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_morning_star
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_morning_star.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_circle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_circle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_hollow
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_hollow.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_morocco
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_morocco.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_pinwheeled
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_pinwheeled.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_ring
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_ring.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_tilted
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_tilted.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_06
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_06.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_07
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_07.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_08
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_08.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_08_eureka
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_08_eureka.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_09
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_09.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_10
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_10.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_11
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_11.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_12
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_12.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_13
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_13.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_14
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_14.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_16
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_16.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_16_bright
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_16_bright.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_gunelve
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_gunelve.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_hexagram
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_hexagram.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_pentagram
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_pentagram.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_saltire_13
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_saltire_13.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stars_circle_13
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stars_circle_13.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stars_circle_07
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stars_circle_07.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_stars_venezuela
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_stars_venezuela.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_large
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_large.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_nepal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_nepal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_pale
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_pale.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_rotated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_rotated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_05
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_05.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_05_pale
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_05_pale.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_05_rotated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_05_rotated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_06
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_06.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_06_pale
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_06_pale.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_08
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_08.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_star_turkey
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_star_turkey.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_three
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_three.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_two
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_two.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crescent_voided
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crescent_voided.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_moon_face
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_moon_face.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bear_california
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bear_california.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_beaver
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_beaver.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bee
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bee.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_buffalo
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_buffalo.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_buffalo_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_buffalo_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_aurochs_head
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_aurochs_head.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bull_head
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bull_head.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bull_head_african
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bull_head_african.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bull_head_mecklenburg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bull_head_mecklenburg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crocodile
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crocodile.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_deer_supporter
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_deer_supporter.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_dragon_bhutan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_dragon_bhutan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_dragon_china
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_dragon_china.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_dragon_china_circle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_dragon_china_circle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_dragon_wales
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_dragon_wales.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_albania
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_albania.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_claws
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_claws.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_crown
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_double_headed
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_double_headed.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_doubleheaded_austria_claws
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_doubleheaded_austria_claws.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_doubleheaded_base
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_doubleheaded_base.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_doubleheaded_lubeck_claws
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_doubleheaded_lubeck_claws.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_doubleheaded_russia_claws
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_doubleheaded_russia_claws.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_fascist_stylized
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_fascist_stylized.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_head
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_head.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_italy_fascist
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_italy_fascist.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_legless
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_legless.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_napoleonian
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_napoleonian.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_ce_eagle_usa_simple
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_usa_simple.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_wallachia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_wallachia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_reichsadler
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_reichsadler.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_elephant_african
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_elephant_african.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_elephant_asia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_elephant_asia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_elephant_asia_decorated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_elephant_asia_decorated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_elephant_charge_kutch
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_elephant_charge_kutch.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_elephant_erawan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_elephant_erawan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_falcon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_falcon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fish_oudh
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fish_oudh.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_gandaberunda
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_gandaberunda.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_golden_fishes
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_golden_fishes.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_ce_golden_fleece
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_golden_fleece.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_horse
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_horse.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_horse_tribal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_horse_tribal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_swan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_swan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_bird_paradise
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_bird_paradise.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_leopard_passant_guardant
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_leopard_passant_guardant.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_corfu
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_corfu.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_judah
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_judah.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_passant_guardant
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_passant_guardant.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_passant_guardant_long
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_passant_guardant_long.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_persia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_persia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_rampant
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_rampant.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_rampant_batavian
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_rampant_batavian.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_rampant_crowned
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_rampant_crowned.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_rampant_forked_crowned
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_rampant_forked_crowned.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_rampant_per_pale_crowned
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_rampant_per_pale_crowned.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_sri_lanka
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_sri_lanka.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_statant_guardant
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_statant_guardant.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_supporter
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_supporter.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tiger_passant
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tiger_passant.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cobra_coiled
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cobra_coiled.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_snow_lion
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_snow_lion.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_supporter_yalis
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_supporter_yalis.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_thunderbird
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_thunderbird.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_unicorn
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_unicorn.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_moors_head
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_moors_head.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wildman
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wildman.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hand
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hand.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hand_dreaming
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hand_dreaming.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_arrow_cross
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_arrow_cross.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_balkenkreuz
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_balkenkreuz.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_auseklis
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_auseklis.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_burgundy
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_burgundy.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_celtic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_celtic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_cotised
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_cotised.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_couped
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_couped.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_couped_voided
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_couped_voided.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_crosslet
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_crosslet.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_denmark
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_denmark.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_england
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_england.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_england_fimbriated
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_england_fimbriated.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_fatherland_front
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_fatherland_front.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_finland
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_finland.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_finnic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_finnic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_fleury
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_fleury.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_fourchee
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_fourchee.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_germany_war_ensign
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_germany_war_ensign.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_hlinka
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_hlinka.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_mara
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_mara.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_norway
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_norway.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_occitan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_occitan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_order_christ
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_order_christ.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_patty
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_patty.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_patty_hollow
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_patty_hollow.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_pointed
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_pointed.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_pommee
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_pommee.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_santiago
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_santiago.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_sardinia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_sardinia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_sweden
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_sweden.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_switzerland
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_switzerland.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_tursas
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_tursas.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cross_wheel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_wheel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_iron_cross
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_iron_cross.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_buf_emblem
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_buf_emblem.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_parteiadler
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_parteiadler.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fasces
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fasces.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fasces_horizontal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fasces_horizontal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_fasces_lion_head
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_fasces_lion_head.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_labrys
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_labrys.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_labrys_petain
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_labrys_petain.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_labrys_ppf
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_labrys_ppf.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lightning_bolt
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lightning_bolt.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lightning_bolt_nacista
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lightning_bolt_nacista.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_walknut
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_walknut.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wolfsangel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wolfsangel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wolfsangel_nsb
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wolfsangel_nsb.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_triskel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_triskel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_triskel_wolfsangel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_triskel_wolfsangel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_and_sickle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_and_sickle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_and_sickle_round
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_and_sickle_round.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_compass_ddr
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_compass_ddr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_ddr
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_ddr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_hoe
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_hoe.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_cogwheel_usa
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_cogwheel_usa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_india
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_india.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_india_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_india_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_italy
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_italy.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_star_cogwheel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_star_cogwheel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_star_ussr
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_star_ussr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_05_safcp
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_05_safcp.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_star_wreath
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_star_wreath.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_sickle_wreath
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_sickle_wreath.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hammer_wheat
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hammer_wheat.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_corn_sickle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_corn_sickle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_star_frame_hammer_sickle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_star_frame_hammer_sickle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_mining_hammers
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_mining_hammers.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_addorsed_scimitars
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_addorsed_scimitars.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cannon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cannon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cogwheel_machete_angola
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cogwheel_machete_angola.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_corseca_trieste
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_corseca_trieste.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crossed_kris_daggers
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crossed_kris_daggers.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crossed_kris_daggers_mataram
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crossed_kris_daggers_mataram.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crossed_scimitars
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crossed_scimitars.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crossed_scimitars_horizontal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crossed_scimitars_horizontal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_outrigger_hook
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_outrigger_hook.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_spearhead
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_spearhead.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_three_arrows_square
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_three_arrows_square.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_trident
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_trident.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_zulfikar
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_zulfikar.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_scimitar
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_scimitar.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_scimitar_pale
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_scimitar_pale.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_chi_rho
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_chi_rho.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_christogram_01
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_christogram_01.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_christogram_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_christogram_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_christogram_03
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_christogram_03.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_bukhara_communist
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_bukhara_communist.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_fidji
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_fidji.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_jamaica
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_jamaica.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_kutch
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_kutch.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_lanfang
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_lanfang.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_logograms_japan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_logograms_japan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_mysore
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_mysore.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_nauru
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_nauru.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_new_hebrides
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_new_hebrides.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_paraguay
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_paraguay.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_legend_solomon_islands
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_legend_solomon_islands.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_mahdist_legend
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_mahdist_legend.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shahada
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shahada.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_shahada_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/shahada_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shahada_and_sword
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shahada_and_sword.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_takbir
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_takbir.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_irish_republic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_irish_republic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_a
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_a.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_b
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_b.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_b_cyrillic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_b_cyrillic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_beta
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_beta.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_c
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_c.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_c_serif
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_c_serif.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_d
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_d.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_d_cyrillic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_d_cyrillic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_e
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_e.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_e_serif
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_e_serif.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_f
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_f.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_g
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_g.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_h
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_h.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_i
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_i.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_i_serif
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_i_serif.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_j
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_j.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_l
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_l.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_m
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_m.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_n
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_n.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_n_cyrillic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_n_cyrillic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_o
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_o.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_q
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_q.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_r
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_r.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_r_cyrillic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_r_cyrillic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_s
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_s.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_s_cyrillic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_s_cyrillic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_t
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_t.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_u
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_u.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_v
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_v.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_v_cyrillic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_v_cyrillic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_v_serif
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_v_serif.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_w
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_w.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_x
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_x.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_y
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_y.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_z
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_z.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_monogram_tonga
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_monogram_tonga.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_rune_algiz
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_rune_algiz.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_rune_hagal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_rune_hagal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_rune_tiwaz
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_rune_tiwaz.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sigma
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sigma.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_0
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_0.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_1
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_1.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_2
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_2.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_3
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_3.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_4
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_4.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_5
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_5.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_6
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_6.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_7
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_7.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_8
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_8.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_number_9
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_number_9.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_armillary_sphere
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_armillary_sphere.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_banner_escutcheon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_banner_escutcheon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_banner_wurttemberg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_banner_wurttemberg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_afghanistan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_afghanistan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_australia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_australia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_brunswick
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_brunswick.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_costa_rica
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_costa_rica.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_frame_austria
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_frame_austria.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_frame_ceylon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_frame_ceylon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_frame_costa_rica
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_frame_costa_rica.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_frame_ddr
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_frame_ddr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_frame_mexico
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_frame_mexico.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_frame_natal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_frame_natal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_haiti
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_haiti.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_oldenburg_delmenhorst
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_oldenburg_delmenhorst.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_roundel_austria
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_roundel_austria.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_saf_hope_allegory
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_saf_hope_allegory.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_saf_shield
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_saf_shield.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_saf_wagon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_saf_wagon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_saf_wildebeests
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_saf_wildebeests.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_shield_sweden
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_shield_sweden.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_sierra_leone_bg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_sierra_leone_bg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_temple_ceylon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_temple_ceylon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_coa_wurttemberg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_coa_wurttemberg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_collar_golden_fleece
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_collar_golden_fleece.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crancelin
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crancelin.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crest_helmet
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crest_helmet.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crest_mysore
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crest_mysore.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crest_torse
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crest_torse.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_ducal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_ducal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_imperial_austria
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_imperial_austria.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_imperial_russia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_imperial_russia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_lappet
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_lappet.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_oudh
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_oudh.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_simple
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_simple.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_st_edward
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_st_edward.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_swedish
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_swedish.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_crown_tudor
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_tudor.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_mitre
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_mitre.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_decor_sikkim_1
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_decor_sikkim_1.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_decor_sikkim_2
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_decor_sikkim_2.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_decor_sikkim_3
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_decor_sikkim_3.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_double_tressure
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_double_tressure.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_flag_supporter_tricolor_vertical
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_flag_supporter_tricolor_vertical.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_flame_canada_nup
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_flame_canada_nup.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_ddr_flags_bicolour
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_ddr_flags_bicolour.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_ddr_flags_tricolour
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_ddr_flags_tricolour.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_frame_ddr_sun_bg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_frame_ddr_sun_bg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_galley
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_galley.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_harp
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_harp.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_harp_ireland
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_harp_ireland.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_key_bremen
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_key_bremen.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_keys_st_peter
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_keys_st_peter.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_keys_st_peter_crozier
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_keys_st_peter_crozier.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_keys_st_peter_knot
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_keys_st_peter_knot.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_ribbon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_ribbon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_solid
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_royal_mantle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_royal_mantle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sacred_heart
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sacred_heart.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_accolade
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_accolade.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_accolade_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_accolade_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_accolade_03
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_accolade_03.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_accolade_modena
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_accolade_modena.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_african
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_african.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_anhalt_per_pale
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_anhalt_per_pale.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_baden
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_baden.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_checkered
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_checkered.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_cross
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_cross.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_german_round
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_german_round.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_german_round_fess
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_german_round_fess.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_german_round_per_fess
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_german_round_per_fess.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_heater
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_heater.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_heater_border
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_heater_border.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_heater_fess
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_heater_fess.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_heater_large_barry_05_bottom
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_heater_large_barry_05_bottom.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_heater_large_per_fess
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_heater_large_per_fess.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_heater_sierra_leone
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_heater_sierra_leone.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_hesse
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_hesse.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_iberian
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_iberian.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_iberian_cross_thin
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_iberian_cross_thin.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_new_zealand
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_new_zealand.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_plc
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_plc.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_round_per_pale
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_round_per_pale.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_saxony
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_saxony.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_shield_wave_overlay
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shield_wave_overlay.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_ship_manchester
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_ship_manchester.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wreath
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wreath.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wreath_peru
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wreath_peru.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wreath_thin
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wreath_thin.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_laurel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_laurel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_laurel_circled
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_laurel_circled.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_laurel_knot
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_laurel_knot.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_ermine_spot
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_ermine_spot.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_angkor_vat
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_angkor_vat.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_ashanti_golden_stool
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_ashanti_golden_stool.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_beehive
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_beehive.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_buddha
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_buddha.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_castle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_castle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_castle_charge_kutch
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_castle_charge_kutch.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_castle_hamburg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_castle_hamburg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_chains
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_chains.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_chakra_siam
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_chakra_siam.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_conch_shell
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_conch_shell.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_cornucopias
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cornucopias.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_dharmachakra
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_dharmachakra_india.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_endless_knot
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_endless_knot.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eryr_gwyn
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eryr_gwyn.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eternal_knot
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eternal_knot.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_falanga
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_falanga.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_hiawathas_belt
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_hiawathas_belt.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_infinity
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_infinity.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_inuksuk
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_inuksuk.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_kanaga
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_kanaga.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_khanda
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_khanda.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_kolovrat
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_kolovrat.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_korea_kwae
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_korea_kwae.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_korea_taegeuk
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_korea_taegeuk.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_masai_shield
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_masai_shield.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_native_american_pattern_diamond
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_native_american_pattern_diamond.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_nguni_shield
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_nguni_shield.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_nguni_shield_02
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_nguni_shield_02.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_nguni_shield_03
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_nguni_shield_03.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_nguni_shield_04
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_nguni_shield_04.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_pattern_bukhara
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_pattern_bukhara.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_platform_siam
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_platform_siam.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_soyombo
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_soyombo.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_soyombo_frame
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_soyombo_frame.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_soyombo_modern
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_soyombo_modern.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sulu
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sulu.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sumka_stylized_eagle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sumka_stylized_eagle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tamga_idel_ural
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tamga_idel_ural.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tamga_tatar
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tamga_tatar.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_tao_people
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tao_people.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_temple_thai
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_temple_thai.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_totem_kanak
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_totem_kanak.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_triskelion_double
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_triskelion_double.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_triskelion_sicily
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_triskelion_sicily.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_umbrella
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_umbrella.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_umbrella_champasak
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_umbrella_champasak.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_vlajka_emblem
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_vlajka_emblem.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_wagon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_wagon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_buffalo_painted_skull
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_buffalo_painted_skull.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_austria
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_austria.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_bahamas
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_bahamas.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_bolivia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_bolivia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_brazil
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_brazil.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_canada
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_canada.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_central_america
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_central_america.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_chile
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_chile.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_colombia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_colombia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_colombia_lesser
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_colombia_lesser.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_cuba
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_cuba.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_dominican_republic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_dominican_republic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_france_greater
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_france_greater.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_guatemala
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_guatemala.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_gwalior
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_gwalior.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_italia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_italia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_jamaica_supporters
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_jamaica_supporters.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_lucca
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_lucca.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_mantle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_mantle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_mexico
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_mexico.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_michigan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_michigan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_modena
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_modena.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_napoleon_iii
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_napoleon_iii.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_newfoundland
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_newfoundland.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_nicaragua
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_nicaragua.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_nova_scotia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_nova_scotia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_oldenburg
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_oldenburg.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_papal_states_tiara
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_papal_states_tiara.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_parma
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_parma.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_peru
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_peru.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_portugal
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_portugal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_portuguese_republic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_portuguese_republic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_schleswig_holstein
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_schleswig_holstein.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_spain
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_spain.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_spanish_republic
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_spanish_republic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_tuscany
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_tuscany.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_two_sicilies
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_two_sicilies.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_uruguay
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_uruguay.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_usa
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_usa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_coa_venezuela
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_coa_venezuela.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_crow_star
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_crow_star.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_crown
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_crown_cut
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_crown_cut.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_crown_imperial_brazil
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_crown_imperial_brazil.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_crown_imperial_eagles
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_crown_imperial_eagles.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_crown_imperial_russia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_crown_imperial_russia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_dharmachakra_sikkim
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_dharmachakra_sikkim.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_austria_crowned
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_austria_crowned.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_lubeck_shield
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_lubeck_shield.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_mexico
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_mexico.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_prussia_early
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_prussia_early.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_prussia_monogram_crown
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_prussia_monogram_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_russia_crowned
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_russia_crowned.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_usa
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_usa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_eagle_wallachia_crown
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_eagle_wallachia_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_german_state_crown
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_german_state_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_keys_st_peter
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_keys_st_peter.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_lakota_medicine_wheel
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_lakota_medicine_wheel.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_lion_hesse
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_lion_hesse.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_lion_san_marco
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_lion_san_marco.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_louisiana_swan
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_louisiana_swan.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_necklace_st_george_parma
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_necklace_st_george_parma.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_necklace_two_sicilies
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_necklace_two_sicilies.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_peacock
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_peacock.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_st_george_and_the_dragon
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_st_george_and_the_dragon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_star_india
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_star_india.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_usa_bald_eagle
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_usa_bald_eagle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_te_vytis
+	iconsize = { 
+		texture = "gfx/coat_of_arms/textured_emblems/te_vytis.dds"
+		size = { 100 68 }
 		fontsize = 16
 	}
 }

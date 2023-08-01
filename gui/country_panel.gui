@@ -215,6 +215,7 @@ types country_panel_types
 				
 				onclick = "[ExecuteConsoleCommand('gui.createwidget gui/custom_gui/window_flag_designer.gui flag_designer_window')]"
 				onclick = "[GetVariableSystem.Set( 'flag_designer_window', 'background_panel' )]"
+				#onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('flag', MakeScopeValue(Country.GetFlag)).End )]"
 				
 
 				#METHOD 2
