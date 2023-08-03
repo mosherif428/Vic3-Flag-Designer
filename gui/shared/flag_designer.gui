@@ -77,7 +77,7 @@
             button = {
 				block "itemcontext"
 				{
-					datacontext = "[GetScriptedGui('change_pattern')]"
+					datacontext = "[GetScriptedGui('pattern_bg')]"
 				}
                 size = { 100 68 }
 				using = red_button
@@ -717,6 +717,43 @@
 			
 	}
 
+	type emblem_layouts = dynamicgridbox
+	{
+		ignoreinvisible = yes
+        maxverticalslots = 1000
+        flipdirection = yes
+        block "width"{
+            datamodel_wrap = 5
+            maxhorizontalslots = 5
+        }
+        layoutpolicy_vertical = expanding
+        layoutpolicy_horizontal = expanding
+        position = {0 0}
+        block "datamodel" 
+		{
+            datamodel = "[GetGlobalList('all_emblem_layouts')]"
+        }
+        item = {
+            button = {
+				block "itemcontext"
+				{
+					datacontext = "[GetScriptedGui('emblem_layout')]"
+				}
+				size = { 100 68 }
+				using = red_button
+				margin = { 30 30 }
+				text_single = {
+                    raw_text = "[Concatenate(Concatenate('@icon_',Scope.GetFlagName), '!')]"
+                    size = { 75% 75% }
+                    fontsize = 10
+                    fontsize_min = 7
+                    parentanchor = center
+                }
+                onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Player.MakeScope).AddScope('emblem_layout', MakeScopeFlag(Scope.GetFlagName)).End)]"
+            }
+		}
+	}
+
 	type vbox_flag_designer_emblemlayout_list = vbox
 	{
 		layoutpolicy_horizontal = expanding
@@ -765,8 +802,13 @@
         }
         item = {
             button = {
+				block "itemcontext"
+				{
+					datacontext = "[GetScriptedGui('colored_emblem')]"
+				}
 				size = { 100 68 }
 				using = red_button
+				margin = { 30 30 }
 				text_single = {
                     raw_text = "[Concatenate(Concatenate('@icon_',Scope.GetFlagName), '!')]"
                     size = { 75% 75% }
@@ -774,8 +816,7 @@
                     fontsize_min = 7
                     parentanchor = center
                 }
-				parentanchor = center
-                onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Country.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
+                onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Player.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
             }
 		}
 	}
@@ -805,7 +846,7 @@
                     size = { 75% 75% }
                     fontsize = 15
                     fontsize_min = 7
-                    parentanchor = center
+                    position = { 0 0 }
                 }
                 block "itemcontext" {datacontext = "[GetScriptedGui('change_emblem')]"} 
                 onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(Country.MakeScope).AddScope('emblem', MakeScopeFlag(Scope.GetFlagName)).End)]"
@@ -1093,6 +1134,7 @@
 		name = "emblem_instances"
 		visible = "[GetVariableSystem.HasValue('flag_designer_window', 'emblem_instances')]"
 		vbox_flag_designer_emblemcolors = {}
+		vbox_flag_designer_colorswitch = {}
 		vbox = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding

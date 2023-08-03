@@ -2635,4 +2635,141 @@
 		target = flag:te_vytis
 	}
 
+	##LAYOUTS##
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template1
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template2
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template3
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template4
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template5
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template6
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template7
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template8
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template9
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template10
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template11
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template12
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template13
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template14
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template15
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template16
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template17
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template18
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template19
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template20
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template21
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template22
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template23
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template24
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template25
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template26
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template27
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template28
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template29
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template30
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template31
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template32
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template33
+	}
+	add_to_global_variable_list = {
+		name = emblem_layouts
+		target = template34
+	}
 }

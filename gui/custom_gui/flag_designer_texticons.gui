@@ -5248,3 +5248,275 @@ texticon = {
 		fontsize = 16
 	}
 }
+texticon = { 
+	icon = icon_template1
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template1.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template2
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template2.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template3
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template3.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template4
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template4.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template5
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template5.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template6
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template6.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template7
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template7.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template8
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template8.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template9
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template9.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template10
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template10.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template11
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template11.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template12
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template12.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template13
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template13.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template14
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template14.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template15
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template15.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template16
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template16.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template17
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template17.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template18
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template18.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template19
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template19.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template20
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template20.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template21
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template21.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template22
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template22.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template23
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template23.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template24
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template24.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template25
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template25.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template26
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template26.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template27
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template27.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template28
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template28.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template29
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template29.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template30
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template30.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template31
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template31.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template32
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template32.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template33
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template33.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_template34
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/template34.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}

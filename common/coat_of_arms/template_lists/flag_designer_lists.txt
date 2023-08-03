@@ -5561,4 +5561,821 @@
 			}
 		}
 	}
+	emblem_layouts = {
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template1
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = color2
+					color2 = color3
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template2
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = color2
+					color2 = color3
+					instance = { position = { @third 0.5 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template3
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_frame_circle.dds"
+					color1 = color2
+					color2 = color3
+					instance = { scale = { 0.8 0.8 } } 
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = color3
+					instance = { scale = { 0.7 0.7 } } 
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template4
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_frame_circle_outline.dds"
+					color1 = color2
+					color2 = color3
+					instance = { scale = { 0.8 0.8 } } 
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = color3
+					instance = { scale = { 0.65 0.65 } } 
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template5
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_tricolor_vertical.dds"
+					color1 = color2
+					color2 = color3
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = color3
+					instance = { scale = { @third @third } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template6
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_tricolor_horizontal.dds"
+					color1 = color2
+					color2 = color3
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template7
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_tricolor_horizontal.dds"
+					color1 = color2
+					color2 = color3
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = color3
+					instance = { scale = { @third @third } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template8
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_bicolor_bottom.dds"
+					color1 = color2
+					color2 = color2
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template9
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+
+				colored_emblem = {
+					texture = "ce_bend_dexter.dds"
+					color1 = color2
+					color2 = color3
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template10
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+				
+				colored_emblem = {
+					texture = "ce_per_saltire.dds"
+					color1 = color1
+					color2 = color3
+				}
+				
+				colored_emblem = {
+					texture = "ce_saltire_fimbriated.dds"
+					color1 = color2
+					color2 = color3
+					color3 = color1
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template11
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_bicolor_bottom.dds"
+					color1 = color3
+				}
+			
+				colored_emblem = {
+					texture = "ce_per_saltire_counterchanged.dds"
+					color1 = color2
+					color2 = "yellow"
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template12
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+			
+				colored_emblem = {
+					texture = "ce_bicolor_bottom.dds"
+					color1 = "red"
+				}
+			
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "blue"
+					instance = { scale = { @[chl_width] @[chl_height] } position = { @[chl_width/2] @[chl_height/2] }  }
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "white"
+					instance = { scale = { @[chl_height*chl_star_scale] @[chl_height*chl_star_scale] } position = { @[chl_width/2] @[chl_height/2] }  }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template13
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+			
+				colored_emblem = {
+					texture = "ce_bicolor_bottom.dds"
+					color1 = "red"
+				}
+			
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "blue"
+					instance = { scale = { @third 1 } position = { @tex_star_position 0.5 } }
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "white"
+					instance = { scale = { 0.5 0.5 } position = { @tex_star_position 0.5 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template14
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+			
+				colored_emblem = {
+					texture = "ce_stripes_9.dds"
+					color1 = "blue_light"
+				}
+			
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "white"
+					instance = { scale = { 0.5 0.555 } position = { 0.25 @[0.555/2] } }
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "yellow"
+					instance = { scale = { @0.555 @0.555 } position = { 0.25 @[0.555/2] } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template15
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "green"
+				color2 = "red"
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = "green"
+				}
+				colored_emblem = {
+					texture = "ce_rhombus.dds"
+					color1 = "yellow"
+				}
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "green"
+					instance = { scale = { 0.5 0.5 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template16
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				colored_emblem = {
+					texture = "ce_bicolor_bottom.dds"
+					color1 = "red"
+				}
+				colored_emblem = {
+					texture = "ce_rhombus.dds"
+					color1 = "blue"
+					instance = { position = { 0 0.5 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template17
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = color3
+					color2 = color1
+				}
+			
+				colored_emblem = {
+					texture = "ce_cross_england.dds"
+					color1 = color2
+					color2 = color2
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "red"
+					instance = { scale = { @third @third } position = { @[111/256/2] @[102/256/2] } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template18
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = "blue"
+					color2 = "white"
+				}
+			
+				colored_emblem = {
+					texture = "ce_cross_england.dds"
+					color1 = "red"
+					color2 = "blue"
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "red"
+					instance = { scale = { @third @third } position = { @[111/256/2] @[102/256/2] } }
+					instance = { scale = { @third @third } position = { @[1-(111/256/2)] @[102/256/2] } }
+					instance = { scale = { @third @third } position = { @[1-(111/256/2)] @[1-(102/256/2)] } }
+					instance = { scale = { @third @third } position = { @[111/256/2] @[1-(102/256/2)] } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template19
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = "blue"
+					color2 = "red"
+				}
+			
+				colored_emblem = {
+					texture = "ce_cross_england.dds"
+					color1 = "red"
+					color2 = "white"
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template20
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "red"
+				color2 = "yellow"
+			
+				colored_emblem = {
+					texture = "ce_tricolor_horizontal_thick.dds"
+					color1 = "yellow"
+					color2 = "red"
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "red"
+					instance = { scale = { 0.5 0.5 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template21
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "red"
+				color2 = "white"
+			
+				colored_emblem = {
+					texture = "ce_tricolor_thick.dds"
+					color1 = "white"
+					color2 = "red"
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "red"
+					instance = { scale = { 0.75 0.75 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template22
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "red"
+					color2 = "blue"
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+				}
+			
+				colored_emblem = {
+					texture = "ce_saltire_fimbriated.dds"
+					color1 = "white"
+					color2 = "blue"
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template23
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_canton.dds"
+					color1 = "red"
+					color2 = "blue"
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "blue"
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template24
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				# top right
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "red"
+					instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
+				}
+				# bottom left
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "blue"
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
+				}
+				# bottom right
+				colored_emblem = {
+					texture = "ce_solid.dds"
+					color1 = "yellow"
+					instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template25
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+			
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = "red"
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template26
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+			
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = "red"
+					color2 = list "metal_colors"
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "blue"
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template27
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_per_cross.dds"
+					color1 = "red"
+					color2 = "blue"
+				}
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "blue"
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+					instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
+				}
+			
+				colored_emblem = {
+					texture = "ce_fleur_de_lis.dds"
+					color1 = "yellow"
+					instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
+					instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template28
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_stripes_07.dds"
+					color1 = "red"
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template29
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "yellow"
+			
+				colored_emblem = {
+					texture = "ce_stripes_06.dds"
+					color1 = "red"
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template30
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "yellow"
+			
+				colored_emblem = {
+					texture = "ce_stripes_09.dds"
+					color1 = "red"
+					instance = { rotation = 90 }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template31
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "yellow"
+			
+				colored_emblem = {
+					texture = "ce_stripes_09.dds"
+					color1 = "red"
+					instance = { rotation = 90 }
+		}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template32
+				}
+			}
+			100 = {
+				pattern = "pattern_border_two_stripes.dds"
+				color1 = "white"
+				color2 = "red"
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "red"
+					instance = { scale = { 0.7 0.7 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template33
+				}
+			}
+			100 = {
+				pattern = "pattern_border_double.dds"
+				color1 = "white"
+				color2 = "red"
+				color3 = "blue"
+			
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "red"
+					instance = { scale = { 0.8 0.8 } position = { @third 0.5 } }
+				}
+			}
+		}
+		special_selection = {
+			trigger = {
+				scope:country = {
+					var:emblem_layout = flag:template34
+				}
+			}
+			100 = {
+				pattern = "pattern_solid.tga"
+				color1 = "white"
+
+				colored_emblem = {
+					texture = "ce_star_05.dds"
+					color1 = "yellow"
+					instance = { position = { 0.10 0.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.30 0.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.50 0.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.70 0.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.90 0.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.00 0.20 } scale = { @semy @semy }  }
+					instance = { position = { 0.20 0.20 } scale = { @semy @semy }  }
+					instance = { position = { 0.40 0.20 } scale = { @semy @semy }  }
+					instance = { position = { 0.60 0.20 } scale = { @semy @semy }  }
+					instance = { position = { 0.80 0.20 } scale = { @semy @semy }  }
+					instance = { position = { 1.00 0.20 } scale = { @semy @semy }  }
+					instance = { position = { 0.10 0.40 } scale = { @semy @semy }  }
+					instance = { position = { 0.30 0.40 } scale = { @semy @semy }  }
+					instance = { position = { 0.50 0.40 } scale = { @semy @semy }  }
+					instance = { position = { 0.70 0.40 } scale = { @semy @semy }  }
+					instance = { position = { 0.90 0.40 } scale = { @semy @semy }  }
+					instance = { position = { 0.00 0.60 } scale = { @semy @semy }  }
+					instance = { position = { 0.20 0.60 } scale = { @semy @semy }  }
+					instance = { position = { 0.40 0.60 } scale = { @semy @semy }  }
+					instance = { position = { 0.60 0.60 } scale = { @semy @semy }  }
+					instance = { position = { 0.80 0.60 } scale = { @semy @semy }  }
+					instance = { position = { 1.00 0.60 } scale = { @semy @semy }  }
+					instance = { position = { 0.10 0.80 } scale = { @semy @semy }  }
+					instance = { position = { 0.30 0.80 } scale = { @semy @semy }  }
+					instance = { position = { 0.50 0.80 } scale = { @semy @semy }  }
+					instance = { position = { 0.70 0.80 } scale = { @semy @semy }  }
+					instance = { position = { 0.90 0.80 } scale = { @semy @semy }  }
+					instance = { position = { 0.00 1.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.20 1.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.40 1.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.60 1.00 } scale = { @semy @semy }  }
+					instance = { position = { 0.80 1.00 } scale = { @semy @semy }  }
+					instance = { position = { 1.00 1.00 } scale = { @semy @semy }  }
+				}
+			}
+		}
+	}
 }
