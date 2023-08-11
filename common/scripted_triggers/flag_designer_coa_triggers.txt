@@ -1,0 +1,12 @@
+coa_used_flag_designer_trigger = {
+	OR = {
+		exists = scope:new_fd_coa
+		exists = scope:emblem_layout
+	}
+}
+coa_def_used_flag_designer_trigger = {
+	exists = scope:actor
+	scope:actor = {
+		coa_used_flag_designer_trigger = yes
+	}
+}

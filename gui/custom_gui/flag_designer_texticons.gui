@@ -1601,14 +1601,6 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_stars_circle_07
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_stars_circle_07.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
 	icon = icon_ce_stars_venezuela
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_stars_venezuela.dds"
@@ -3105,17 +3097,9 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_shahada_02
+	icon = icon_ce_shahada_02
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/shahada_02.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}

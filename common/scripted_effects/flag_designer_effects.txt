@@ -53,6 +53,62 @@ initial_coa_effect = {
     }
 
 }
+change_coa_effect = {
+    scope:actor = {
+        pattern = "[GetVariableSystem('pattern_bg')]"
+        color1 = "[GetVariableSystem('pattern_color_0')]"
+        color2 = "[GetVariableSystem('pattern_color_1')]"
+        color3 = "[GetVariableSystem('pattern_color_2')]"
+        colored_emblem = {
+            texture = "[GetVariableSystem('colored_emblem_texture')]"
+            color1 = "[GetVariableSystem('colored_emblem_color_0')]"
+            color2 = "[GetVariableSystem('colored_emblem_color_1')]"
+            color3 = "[GetVariableSystem('colored_emblem_color_2')]"
+            instance = {
+                scale = "[GetVariableSystem('colored_emblem_scale')]"
+                position = "[GetVariableSystem('colored_emblem_position')]"
+                rotation = "[GetVariableSystem('colored_emblem_rotation')]"
+            }
+        }
+        textured_emblem = {
+            texture = "[GetVariableSystem('textured_emblem')]"
+            instance = {
+                scale = "[GetVariableSystem('textured_emblem_scale')]"
+                position = "[GetVariableSystem('textured_emblem_position')]"
+                rotation = "[GetVariableSystem('textured_emblem_rotation')]"
+            }
+        }
+        coa_used_flag_designer_trigger = yes
+        save_scope_as = {
+            name = new_fd_coa
+            value = THIS
+        }
+    }
+}
+set_emblem_layout = {
+    scope:actor = {
+        pattern = "pattern_solid.tga"
+        color1 = "[GetVariableSystem('pattern_color_0')]"
+        color2 = "[GetVariableSystem('pattern_color_1')]"
+        color3 = "[GetVariableSystem('pattern_color_2')]"
+        colored_emblem = {
+            texture = "ce_star_05.dds"
+            color1 = "red"
+            color2 = "blue"
+            color3 = "yellow"
+            instance = {
+               scale = "[GetVariableSystem('colored_emblem_scale')]"
+               position = "[GetVariableSystem('colored_emblem_position')]"
+               rotation = "[GetVariableSystem('colored_emblem_rotation')]"
+            }
+        }
+        coa_used_flag_designer_trigger = yes
+        save_scope_as = {
+            name = emblem_layout
+            value = THIS
+        }
+    }
+}
 changing_coa_effect = {
     set_variable = {
         name = pattern_bg

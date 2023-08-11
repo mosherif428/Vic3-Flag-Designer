@@ -15,7 +15,12 @@ changing_coa_effect = {
 		}
 	}
 }
-
+set_emblem_layout = {
+	scope = country
+	effect = {
+		set_emblem_layout = yes
+	}
+}
 change_pattern = {
 	scope = country
 	saved_scopes = {

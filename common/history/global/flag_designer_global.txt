@@ -807,10 +807,6 @@
 	}
 	add_to_global_variable_list = { 
 		name = all_colored_emblems
-		target = flag:ce_stars_circle_07
-	}
-	add_to_global_variable_list = { 
-		name = all_colored_emblems
 		target = flag:ce_stars_venezuela
 	}
 	add_to_global_variable_list = { 
@@ -2638,138 +2634,138 @@
 	##LAYOUTS##
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template1
+		target = flag:template1
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template2
+		target = flag:template2
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template3
+		target = flag:template3
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template4
+		target = flag:template4
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template5
+		target = flag:template5
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template6
+		target = flag:template6
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template7
+		target = flag:template7
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template8
+		target = flag:template8
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template9
+		target = flag:template9
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template10
+		target = flag:template10
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template11
+		target = flag:template11
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template12
+		target = flag:template12
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template13
+		target = flag:template13
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template14
+		target = flag:template14
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template15
+		target = flag:template15
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template16
+		target = flag:template16
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template17
+		target = flag:template17
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template18
+		target = flag:template18
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template19
+		target = flag:template19
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template20
+		target = flag:template20
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template21
+		target = flag:template21
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template22
+		target = flag:template22
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template23
+		target = flag:template23
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template24
+		target = flag:template24
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template25
+		target = flag:template25
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template26
+		target = flag:template26
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template27
+		target = flag:template27
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template28
+		target = flag:template28
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template29
+		target = flag:template29
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template30
+		target = flag:template30
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template31
+		target = flag:template31
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template32
+		target = flag:template32
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template33
+		target = flag:template33
 	}
 	add_to_global_variable_list = {
 		name = emblem_layouts
-		target = template34
+		target = flag:template34
 	}
 }
