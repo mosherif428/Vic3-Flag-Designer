@@ -5829,4 +5829,744 @@
 			}
 		}
 	}
+	subs_lists = {
+		vanilla_sub = {
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_ENG_coa
+					}
+				}
+				100 = sub_ENG_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SCO_coa
+					}
+				}
+				100 = sub_SCO_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_IRE_coa
+					}
+				}
+				100 = sub_IRE_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_FRA_coa
+					}
+				}
+				100 = sub_FRA_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_GBR
+					}
+				}
+				100 = sub_GBR
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_GBR_uk
+					}
+				}
+				100 = sub_GBR_uk
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SCO
+					}
+				}
+				100 = sub_SCO
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_BRI_canton
+					}
+				}
+				100 = sub_BRI_canton
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_YUC_hoist
+					}
+				}
+				100 = sub_YUC_hoist
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CSA_canton_stars
+					}
+				}
+				100 = sub_CSA_canton_stars
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CSA_canton_saltire
+					}
+				}
+				100 = sub_CSA_canton_saltire
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_UNT_canton_white
+					}
+				}
+				100 = sub_UNT_canton_white
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_UNT_canton_black
+					}
+				}
+				100 = sub_UNT_canton_black
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_24
+					}
+				}
+				100 = sub_USA_canton_24
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SWE_norway_saltire
+					}
+				}
+				100 = sub_SWE_norway_saltire
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SWE_union_mark
+					}
+				}
+				100 = sub_SWE_union_mark
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_TRN
+					}
+				}
+				100 = sub_TRN
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_ORG_vertical
+					}
+				}
+				100 = sub_ORG_vertical
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CAN_coa
+					}
+				}
+				100 = sub_CAN_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SAF_coa
+					}
+				}
+				100 = sub_SAF_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_QUE_coa
+					}
+				}
+				100 = sub_QUE_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_HAN_uk
+					}
+				}
+				100 = sub_HAN_uk
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_BRZ_canton_21
+					}
+				}
+				100 = sub_BRZ_canton_21
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_BAV_lozengy
+					}
+				}
+				100 = sub_BAV_lozengy
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CSA_saltire
+					}
+				}
+				100 = sub_CSA_saltire
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_BIC_cypher
+					}
+				}
+				100 = sub_BIC_cypher
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NZL_theocracy
+					}
+				}
+				100 = sub_NZL_theocracy
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NZL_colony
+					}
+				}
+				100 = sub_NZL_colony
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_GRE_square
+					}
+				}
+				100 = sub_GRE_square
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SPA_coa
+					}
+				}
+				100 = sub_SPA_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_MOD_coa
+					}
+				}
+				100 = sub_MOD_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_bssr
+					}
+				}
+				100 = sub_bssr
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_dvr
+					}
+				}
+				100 = sub_dvr
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_ITA_eagle
+					}
+				}
+				100 = sub_ITA_eagle
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_fascist_eagle
+					}
+				}
+				100 = sub_USA_fascist_eagle
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_WUR_coa
+					}
+				}
+				100 = sub_WUR_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_RUS_coa
+					}
+				}
+				100 = sub_RUS_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_AUS_coa
+					}
+				}
+				100 = sub_AUS_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_LUB_coa
+					}
+				}
+				100 = sub_LUB_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_legend_california
+					}
+				}
+				100 = sub_legend_california
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_legend_republic
+					}
+				}
+				100 = sub_legend_republic
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_AUS_crown
+					}
+				}
+				100 = sub_AUS_crown
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_legend_californian
+					}
+				}
+				100 = sub_legend_californian
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_legend_republics
+					}
+				}
+				100 = sub_legend_republics
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_RUS_crown
+					}
+				}
+				100 = sub_RUS_crown
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NEN_uk
+					}
+				}
+				100 = sub_NEN_uk
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NZL_coa
+					}
+				}
+				100 = sub_NZL_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_JAM_coa
+					}
+				}
+				100 = sub_JAM_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_JAM_greater_coa
+					}
+				}
+				100 = sub_JAM_greater_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_GEO_canton
+					}
+				}
+				100 = sub_GEO_canton
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_DAI_dragon
+					}
+				}
+				100 = sub_DAI_dragon
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CHE_stars
+					}
+				}
+				100 = sub_CHE_stars
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_QUE_coa
+					}
+				}
+				100 = sub_QUE_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_EGY
+					}
+				}
+				100 = sub_EGY
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_EGY_early
+					}
+				}
+				100 = sub_EGY_early
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SAF_coa
+					}
+				}
+				100 = sub_SAF_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_HDJ
+					}
+				}
+				100 = sub_HDJ
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_PPU
+					}
+				}
+				100 = sub_PPU
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CEY
+					}
+				}
+				100 = sub_CEY
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_HAR
+					}
+				}
+				100 = sub_HAR
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_MOD_coa_subject
+					}
+				}
+				100 = sub_MOD_coa_subject
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_CHP
+					}
+				}
+				100 = sub_CHP
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NBS
+					}
+				}
+				100 = sub_NBS
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NBS_FRA
+					}
+				}
+				100 = sub_NBS_FRA
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_NVS
+					}
+				}
+				100 = sub_NVS
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_HES
+					}
+				}
+				100 = sub_HES
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_AUS_right
+					}
+				}
+				100 = sub_AUS_right
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_POL
+					}
+				}
+				100 = sub_POL
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SIL_seal
+					}
+				}
+				100 = sub_SIL_seal
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_DES_canton_stars
+					}
+				}
+				100 = sub_DES_canton_stars
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_MEC_coa
+					}
+				}
+				100 = sub_MEC_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SIL_coa
+					}
+				}
+				100 = sub_SIL_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_bnsr
+					}
+				}
+				100 = sub_bnsr
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_PAR_coa
+					}
+				}
+				100 = sub_PAR_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_TEX_coa
+					}
+				}
+				100 = sub_TEX_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_TEX_subject_MEX
+					}
+				}
+				100 = sub_TEX_subject_MEX
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_ECU_seven_stars
+					}
+				}
+				100 = sub_ECU_seven_stars
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_crown
+					}
+				}
+				100 = sub_crown
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_HAM
+					}
+				}
+				100 = sub_HAM
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_LUB_coa_republican
+					}
+				}
+				100 = sub_LUB_coa_republican
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_SWE_coa
+					}
+				}
+				100 = sub_SWE_coa
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_star
+					}
+				}
+				100 = sub_USA_canton_star
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_stripes
+					}
+				}
+				100 = sub_USA_stripes
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_25
+					}
+				}
+				100 = sub_USA_canton_25
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_30
+					}
+				}
+				100 = sub_USA_canton_30
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_40
+					}
+				}
+				100 = sub_USA_canton_40
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_50
+					}
+				}
+				100 = sub_USA_canton_50
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_60
+					}
+				}
+				100 = sub_USA_canton_60
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_70
+					}
+				}
+				100 = sub_USA_canton_70
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_80
+					}
+				}
+				100 = sub_USA_canton_80
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_90
+					}
+				}
+				100 = sub_USA_canton_90
+			}
+			special_selection = {
+				trigger = {
+					scope:country = {
+						var:vanilla_sub = flag:sub_USA_canton_100
+					}
+				}
+				100 = sub_USA_canton_100
+			}
+		}
+	}
 }

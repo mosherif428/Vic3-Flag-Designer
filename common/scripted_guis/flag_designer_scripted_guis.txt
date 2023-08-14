@@ -42,7 +42,7 @@ change_bgcolor = {
 		}
 		save_scope_value_as = {
 			name = pattern_color_0
-			value = "[SCOPE.vbox_flag_designer_bgcolors.hbox.button.name]"
+			value = "[]"
 		}
 	}
 }

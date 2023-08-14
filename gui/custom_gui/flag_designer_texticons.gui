@@ -5504,3 +5504,723 @@ texticon = {
 		fontsize = 16
 	}
 }
+texticon = { 
+	icon = icon_sub_AUS_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_AUS_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_crown
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_AUS_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_AUS_right
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_AUS_right.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_BAV_lozengy
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_BAV_lozengy.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_BIC_cypher
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_BIC_cypher.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_bnsr
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_bnsr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_BRI_canton
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_BRI_canton.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_BRZ_canton_21
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_BRZ_canton_21.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_bssr
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_bssr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_CAN_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CAN_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_CEY
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CEY.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_CHE_stars
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CHE_stars.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_CHP
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CHP.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_crown
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_CSA_canton_saltire
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/CSA_canton_saltire.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_CSA_canton_stars
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CSA_canton_stars.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_CSA_saltire
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CSA_saltire.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_DAI_dragon
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_DAI_dragon.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_DES_canton_stars
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_DES_canton_stars.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_dvr
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_dvr.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_ECU_seven_stars
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_ECU_seven_stars.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_EGY_early
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_EGY_early.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_EGY
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_EGY.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_ENG_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_ENG_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_FRA_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_FRA_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_GBR_uk
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_GBR_uk.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_GBR
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_GBR.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_GEO_canton
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_GEO_canton.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_HAM
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_HAM.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_HAN_uk
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_HAN_uk.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_HAR
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_HAR.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_HDJ
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_HDJ.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_HES
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_HES.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_IRE_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_IRE_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_ITA_eagle
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_ITA_eagle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_JAM_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_JAM_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_JAM_greater_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_JAM_greater_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_legend_california
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_legend_california.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_legend_californian
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_legend_californian.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_legend_republic
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_legend_republic.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_legend_republics
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_legend_republics.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_LUB_coa_republican
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_LUB_coa_republican.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_LUB_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_LUB_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_MEC_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_MEC_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_MOD_coa_subject
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_MOD_coa_subject.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_MOD_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_MOD_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NBS_FRA
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NBS_FRA.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NBS
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NBS.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NEN_uk
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NEN_uk.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NOR_saltire
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NOR_saltire.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NVS
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NVS.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NZL_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NZL_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NZL_colony
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NZL_colony.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_NZL_theocracy
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_NZL_theocracy.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_ORG_vertical
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_ORG_vertical.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_POL
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_POL.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_PPU
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_PPU.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_QUE_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_QUE_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_QUE_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_AUS_coa2.dds" ###############################################
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_RUS_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_RUS_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_RUS_crown
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_RUS_crown.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SAF_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SAF_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SAF_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SAF_coa2.dds" ####################################################
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SCO_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SCO_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SCO
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SCO.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SIL_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SIL_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SIL_seal
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SIL_seal.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SPA_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SPA_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SWE_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SWE_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_SWE_union_mark
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_SWE_union_mark.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_TEX_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_TEX_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_TEX_subject_MEX
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_TEX_subject_MEX.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_TRN
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_TRN.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_UNT_canton_black
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_UNT_canton_black.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_UNT_canton_white
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_UNT_canton_white.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_24
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_24.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_25
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_25.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_30
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_30.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_40
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_40.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_50
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_50.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_60
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_60.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_70
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_70.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_80
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_80.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_90
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_90.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_100
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_100.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_canton_star
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_canton_star.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_fascist_eagle
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_fascist_eagle.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_USA_stripes
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_USA_stripes.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_WUR_coa
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_WUR_coa.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_sub_YUC_hoist
+	iconsize = { 
+		texture = "gfx/interface/icons/flag_designer_icons/sub_YUC_hoist.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}

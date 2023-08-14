@@ -913,6 +913,94 @@
 		}
 	}
 
+	type subs_list = dynamicgridbox
+	{
+		ignoreinvisible = yes
+        maxverticalslots = 1000
+        flipdirection = yes
+        block "width"{
+            datamodel_wrap = 5
+            maxhorizontalslots = 5
+        }
+        layoutpolicy_vertical = expanding
+        layoutpolicy_horizontal = expanding
+        position = {0 0}
+        block "datamodel" 
+		{
+            datamodel = "[GetGlobalList('all_subs')]"
+        }
+        item = {
+            button = {
+				block "itemcontext"
+				{
+					datacontext = "[GetScriptedGui('vanilla_sub')]"
+				}
+				size = { 100 68 }
+				using = red_button
+				margin = { 30 30 }
+				text_single = {
+                    raw_text = "[Concatenate(Concatenate('@icon_',Scope.GetFlagName), '!')]"
+                    size = { 75% 75% }
+                    fontsize = 10
+                    fontsize_min = 7
+                    parentanchor = center
+                }
+                onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('vanilla_sub', MakeScopeFlag(Scope.GetFlagName)).End)]"
+            }
+		}
+	}
+
+	type vbox_flag_designer_subs_list = vbox
+	{
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+		name = "subs_list"
+		visible = "[GetVariableSystem.HasValue('subs_panel', 'subs_list')]"
+		background = Background_Area
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			hbox = {
+				layoutpolicy_horizontal = growing
+				margin_top = 10
+				margin_right = 10
+				margin_left = 10
+				parentanchor = top|hcenter
+				tab_button = {
+					raw_text = "Vanilla Subs"
+					onclick = "[GetVariableSystem.Set('vbox_flag_designer_subs_list', 'subs_list')]"
+					down = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'subs_list')]"
+					layoutpolicy_horizontal = expanding
+				}
+
+				tab_button = {
+					raw_text = "Custom Subs"
+					onclick = "[GetVariableSystem.Set('vbox_flag_designer_subs_list', 'custom_subs_list')]"
+					down = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'custom_subs_list')]"
+					layoutpolicy_horizontal = expanding
+				}
+			}
+			scrollbox = {
+				visible = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'subs_list')]"
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				blockoverride "scrollbox_content"
+				{
+					subs_list = {}
+				}
+			}
+			scrollbox = {
+				visible = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'custom_subs_list')]"
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				blockoverride "scrollbox_content"
+				{
+					custom_subs_list = {}
+				}
+			}
+		}
+	}
+
 	type vbox_flag_designer_colorswitch = vbox
 	{
 		name = "flag_designer_colorswitch"
@@ -1171,6 +1259,7 @@
 			expand = {}
 		}
 	}
+
 	type vbox_flag_designer_preview = vbox
 	{
 		name = "flag_designer_previews"
@@ -1310,6 +1399,18 @@
 
 				layoutpolicy_horizontal = expanding
 			}
+			
+			tab_button = {
+				raw_text = "Subs"
+				datamodel = "[GetGlobalList('subs_list')]"
+				onclick = "[GetVariableSystem.Set('flag_designer_window', 'subs_panel')]"
+				onclick = "[GetVariableSystem.Set('vbox_flag_designer_subs_list', 'subs_list')]"
+				onclick = "[GetVariableSystem.Set('subs_panel', 'subs_list')]"
+				down = "[GetVariableSystem.HasValue('flag_designer_window', 'subs_panel')]"
+				
+
+				layoutpolicy_horizontal = expanding
+			}
 		}
 		widget = {
 			layoutpolicy_horizontal = expanding
@@ -1392,6 +1493,29 @@
 			}
 		}
 	}
+
+	type vbox_flag_designer_subs_panel = vbox
+	{
+		name = "subs_panel"
+		visible = "[GetVariableSystem.HasValue('flag_designer_window', 'subs_panel')]"
+		vbox = {
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				vbox_flag_designer_subscarousel = {}
+				vbox_flag_designer_scaleposition = {}
+			}
+		}
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				vbox_flag_designer_subs_list = {}
+			}
+		}
+	}
 }
 template flag_designer_slider
 {
@@ -1448,20 +1572,10 @@ template FlagDesignerValueSlider
 {
 	block "fd_value_slider"
 	{
-		### v3 replacement
 		button = {
 			using = scrollbar_slider
 			size = { 12 20 }
 		}
-			
-		#button = {
-		#	texture = "gfx/frontend/interface/scrollbars/scrollbar_slider.dds"
-		#	spriteType = Corneredtiled
-		#	spriteborder = { 0 3 }
-		#	framesize = { 12 40 }
-		#	size = { 12 20 }
-		#}
-		### to here
 	}
 }
 
@@ -1471,13 +1585,7 @@ template FlagDesignerValueTrack
 	{
 		button = {
 			parentanchor = vcenter
-			### v3 replacement
 			using = dark_area
-			#texture ="gfx/frontend/interface/progressbars/progress_black.dds"
-			#spriteType = Corneredtiled
-			#spriteborder = { 6 6 }
-			### to here
-			
 			size = { 20 14 }
 			alwaystransparent = yes
 		}

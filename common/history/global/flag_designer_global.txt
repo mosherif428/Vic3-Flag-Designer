@@ -2768,4 +2768,377 @@
 		name = emblem_layouts
 		target = flag:template34
 	}
+	### SUBS ###
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_ENG_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SCO_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_IRE_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_FRA_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_GBR
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_GBR_uk
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SCO
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_BRI_canton
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_YUC_hoist
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CSA_canton_stars
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CSA_canton_saltire
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_UNT_canton_white
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_UNT_canton_black
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_24
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SWE_norway_saltire
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SWE_union_mark
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_TRN
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_ORG_vertical
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CAN_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SAF_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_QUE_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_HAN_uk
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_BRZ_canton_21
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_BAV_lozengy
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CSA_saltire
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_BIC_cypher
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NZL_theocracy
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NZL_colony
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_GRE_square
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SPA_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_MOD_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_bssr
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_dvr
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_ITA_eagle
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_fascist_eagle
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_WUR_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_RUS_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_AUS_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_LUB_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_legend_california
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_legend_republic
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_AUS_crown
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_legend_californian
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_legend_republics
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_RUS_crown
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NEN_uk
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NZL_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_JAM_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_JAM_greater_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_GEO_canton
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_DAI_dragon
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CHE_stars
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_QUE_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_EGY
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_EGY_early
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SAF_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_HDJ
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_PPU
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CEY
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_HAR
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_MOD_coa_subject
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_CHP
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NBS
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NBS_FRA
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_NVS
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_HES
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_AUS_right
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_POL
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SIL_seal
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_DES_canton_stars
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_MEC_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SIL_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_bnsr
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_PAR_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_PAR_coa_subject
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_TEX_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_TEX_subject_MEX
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_ECU_seven_stars
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_crown
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_HAM
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_LUB_coa_republican
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_SWE_coa
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_star
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_stripes
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_25
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_30
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_40
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_50
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_60
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_70
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_80
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_90
+	}
+	add_to_global_variable_list = {
+		name = all_subs
+		target = flag:sub_USA_canton_100
+	}
 }

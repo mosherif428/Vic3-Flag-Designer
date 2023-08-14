@@ -63,9 +63,9 @@ DEFAULT = {
 	}
 	flag_definition = {
 		coa = scope:new_fd_coa ### REPLACE ME
-		priority = 10000
+		priority = 1000
 		trigger = {
-			coa_def_flag_designer_trigger = yes
+			coa_def_used_flag_designer_trigger = yes
 		}
 	}
 }
