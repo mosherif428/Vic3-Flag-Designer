@@ -1,166 +1,76 @@
-initial_coa_effect = {
-    set_variable = {
-        name = pattern_bg
-        value = "[CountryDefinition.GetFlag.pattern]"
-    }
-    set_variable = {
-        name = pattern_color_0
-        value = "[CountryDefinition.GetFlag.color1]"
-    }
-    set_variable = {
-        name = pattern_color_1
-        value = "[CountryDefinition.GetFlag.color2]"
-    }
-    set_variable = {
-        name = pattern_color_2
-        value = "[CountryDefinition.GetFlag.color3]"
-    }
-    set_variable = {
-        name = colored_emblem_texture
-        value = "[CountryDefinition.GetFlag.colored_emblem.texture]"
-    }
-    set_variable = {
-        name = colored_emblem_color_0
-        value = "[CountryDefinition.GetFlag.colored_emblem.color1]"
-    }
-    set_variable = {
-        name = colored_emblem_color_1
-        value = "[CountryDefinition.GetFlag.colored_emblem.color2]"
-    }
-    set_variable = {
-        name = colored_emblem_color_2
-        value = "[CountryDefinition.GetFlag.colored_emblem.color3]"
-    }
-    set_variable = {
-        name = colored_emblem_scale
-        value = "[CountryDefinition.GetFlag.colored_emblem.instance.scale]"
-    }
-    set_variable = {
-        name = colored_emblem_position
-        value = "[CountryDefinition.GetFlag.colored_emblem.instance.position]"
-    }
-    set_variable = {
-        name = textured_emblem_texture
-        value = "[CountryDefinition.GetFlag.textured_emblem.texture]"
-    }
-    set_variable = {
-        name = textured_emblem_scale
-        value = "[CountryDefinition.GetFlag.textured_emblem.instance.scale]"
-    }
-    set_variable = {
-        name = textured_emblem_position
-        value = "[CountryDefinition.GetFlag.texturedemblem.instance.position]"
-    }
-
-}
-change_coa_effect = {
-    scope:actor = {
-        pattern = "[GetVariableSystem('pattern_bg')]"
-        color1 = "[GetVariableSystem('pattern_color_0')]"
-        color2 = "[GetVariableSystem('pattern_color_1')]"
-        color3 = "[GetVariableSystem('pattern_color_2')]"
-        colored_emblem = {
-            texture = "[GetVariableSystem('colored_emblem_texture')]"
-            color1 = "[GetVariableSystem('colored_emblem_color_0')]"
-            color2 = "[GetVariableSystem('colored_emblem_color_1')]"
-            color3 = "[GetVariableSystem('colored_emblem_color_2')]"
-            instance = {
-                scale = "[GetVariableSystem('colored_emblem_scale')]"
-                position = "[GetVariableSystem('colored_emblem_position')]"
-                rotation = "[GetVariableSystem('colored_emblem_rotation')]"
-            }
+﻿change_coa_effect = {
+    scope:FD_COA = {
+        save_scope_value_as = {
+            name = pattern
+            value = "pattern_solid.tga"
         }
-        textured_emblem = {
-            texture = "[GetVariableSystem('textured_emblem')]"
-            instance = {
-                scale = "[GetVariableSystem('textured_emblem_scale')]"
-                position = "[GetVariableSystem('textured_emblem_position')]"
-                rotation = "[GetVariableSystem('textured_emblem_rotation')]"
-            }
+        save_scope_value_as = {
+            name = color1
+            #value = "red"
+            value = "[GetVariableSystem('pattern_color_0')]"
         }
-        coa_used_flag_designer_trigger = yes
+        save_scope_value_as = {
+            name = color2
+            value = "[GetVariableSystem('pattern_color_1')]"
+        }
+        save_scope_value_as = {
+            name = color3
+            value = "[GetVariableSystem('pattern_color_2')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.texture
+            value = "[GetVariableSystem('colored_emblem_texture')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.color1
+            value = "[GetVariableSystem('colored_emblem_color_0')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.color2
+            value = "[GetVariableSystem('colored_emblem_color_1')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.color3
+            value = "[GetVariableSystem('colored_emblem_color_2')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.scale
+            value = "[GetVariableSystem('colored_emblem_scale')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.position
+            value = "[GetVariableSystem('colored_emblem_position')]"
+        }
+        save_scope_value_as = {
+            name = colored_emblem.rotation
+            value = "[GetVariableSystem('colored_emblem_rotation')]"
+        }
+        save_scope_value_as = {
+            name = textured_emblem.texture
+            value = "[GetVariableSystem('textured_emblem_texture')]"
+        }
+        save_scope_value_as = {
+            name = textured_emblem.scale
+            value = "[GetVariableSystem('textured_emblem_scale')]"
+        }
+        save_scope_value_as = {
+            name = textured_emblem.position
+            value = "[GetVariableSystem('textured_emblem_position')]"
+        }
+        save_scope_value_as = {
+            name = textured_emblem.rotation
+            value = "[GetVariableSystem('textured_emblem_rotation')]"
+        }
         save_scope_as = {
-            name = new_fd_coa
+            name = FD_COA
             value = THIS
         }
     }
+    coa_used_flag_designer_trigger = yes
 }
-set_emblem_layout = {
-    scope:actor = {
-        pattern = "pattern_solid.tga"
-        color1 = "[GetVariableSystem('pattern_color_0')]"
-        color2 = "[GetVariableSystem('pattern_color_1')]"
-        color3 = "[GetVariableSystem('pattern_color_2')]"
-        colored_emblem = {
-            texture = "ce_star_05.dds"
-            color1 = "red"
-            color2 = "blue"
-            color3 = "yellow"
-            instance = {
-               scale = "[GetVariableSystem('colored_emblem_scale')]"
-               position = "[GetVariableSystem('colored_emblem_position')]"
-               rotation = "[GetVariableSystem('colored_emblem_rotation')]"
-            }
-        }
-        coa_used_flag_designer_trigger = yes
-        save_scope_as = {
-            name = emblem_layout
-            value = THIS
-        }
-    }
-}
-changing_coa_effect = {
-    set_variable = {
-        name = pattern_bg
-        value = "[GetVariableSystem('pattern_bg')]"
-    }
-    set_variable = {
-        name = pattern_color_0
-        value = "[GetVariableSystem('change_bgcolor')]"
-    }
-    set_variable = {
-        name = pattern_color_1
-        value = "[GetVariableSystem('change_bgcolor')]"
-    }
-    set_variable = {
-        name = pattern_color_2
-        value = "[GetVariableSystem('change_bgcolor')]"
-    }
-    set_variable = {
-        name = colored_emblem_texture
-        value = "[GetVariableSystem('colored_emblem')]"
-    }
-    set_variable = {
-        name = colored_emblem_color_0
-        value = "[GetVariableSystem('change_emblemcolor')]"
-    }
-    set_variable = {
-        name = colored_emblem_color_1
-        value = "[GetVariableSystem('change_emblemcolor')]"
-    }
-    set_variable = {
-        name = colored_emblem_color_2
-        value = "[GetVariableSystem('change_emblemcolor')]"
-    }
-    set_variable = {
-        name = colored_emblem_scale
-        value = "[GetVariableSystem('colored_emblem_scale')]"
-    }
-    set_variable = {
-        name = colored_emblem_position
-        value = "[GetVariableSystem('colored_emblem_position')]"
-    }
-    set_variable = {
-        name = textured_emblem_texture
-        value = "[GetVariableSystem('textured_emblem')]"
-    }
-    set_variable = {
-        name = textured_emblem_scale
-        value = "[GetVariableSystem('textured_emblem_scale')]"
-    }
-    set_variable = {
-        name = textured_emblem_position
-        value = "[GetVariableSystem('textured_emblem_position')]"
-    }
 
+change_pattern_color_0_black = {
+    scope:FD_COA = {
+        pattern_color_0 = "black"
+    }
 }
