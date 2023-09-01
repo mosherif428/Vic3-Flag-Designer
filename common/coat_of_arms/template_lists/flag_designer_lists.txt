@@ -3,319 +3,727 @@
 		pattern_color_0 = {
 			special_selection = {
 				trigger = {
-					scope:country = {
+					scope:flag = {
 						var:pattern_color_0 = 0
-					}
-				}
-				100 = "red"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 1
-					}
-				}
-				100 = "orange"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 2
-					}
-				}
-				100 = "yellow"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 3
-					}
-				}
-				100 = "yellow_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 4
-					}
-				}
-				100 = "white"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 5
-					}
-				}
-				100 = "grey"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 6
 					}
 				}
 				100 = "black"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 7
+					scope:flag = {
+						var:pattern_color_0 = 1
 					}
 				}
-				100 = "brown"
+				100 = "white"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 8
-					}
-				}
-				100 = "green"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 9
-					}
-				}
-				100 = "green_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 10
-					}
-				}
-				100 = "blue_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 11
+					scope:flag = {
+						var:pattern_color_0 = 2
 					}
 				}
 				100 = "blue"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_0 = 12
+					scope:flag = {
+						var:pattern_color_0 = 3
+					}
+				}
+				100 = "green"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 4
+					}
+				}
+				100 = "red"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 5
+					}
+				}
+				100 = "orange"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 6
+					}
+				}
+				100 = "yellow"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 7
 					}
 				}
 				100 = "purple"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 8
+					}
+				}
+				100 = "beige"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 9
+					}
+				}
+				100 = "peach"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 10
+					}
+				}
+				100 = "brown"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 11
+					}
+				}
+				100 = "pink"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 12
+					}
+				}
+				100 = "saffron"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 13
+					}
+				}
+				100 = "grey"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 14
+					}
+				}
+				100 = "tan"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 15
+					}
+				}
+				100 = "azure"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 16
+					}
+				}
+				100 = "pearl"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 17
+					}
+				}
+				100 = "teal"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 18
+					}
+				}
+				100 = "blue_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 19
+					}
+				}
+				100 = "green_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 20
+					}
+				}
+				100 = "red_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 21
+					}
+				}
+				100 = "brown_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 22
+					}
+				}
+				100 = "black_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 23
+					}
+				}
+				100 = "yellow_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 24
+					}
+				}
+				100 = "yellow_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 25
+					}
+				}
+				100 = "red_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 26
+					}
+				}
+				100 = "green_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 27
+					}
+				}
+				100 = "red_faint"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 28
+					}
+				}
+				100 = "grey_observer"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_0 = 29
+					}
+				}
+				100 = "highlight"
 			}
 		}
 		pattern_color_1 = {
 			special_selection = {
 				trigger = {
-					scope:country = {
+					scope:flag = {
 						var:pattern_color_1 = 0
-					}
-				}
-				100 = "red"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 1
-					}
-				}
-				100 = "orange"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 2
-					}
-				}
-				100 = "yellow"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 3
-					}
-				}
-				100 = "yellow_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 4
-					}
-				}
-				100 = "white"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 5
-					}
-				}
-				100 = "grey"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 6
 					}
 				}
 				100 = "black"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 7
+					scope:flag = {
+						var:pattern_color_1 = 1
 					}
 				}
-				100 = "brown"
+				100 = "white"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 8
-					}
-				}
-				100 = "green"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 9
-					}
-				}
-				100 = "green_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 10
-					}
-				}
-				100 = "blue_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 11
+					scope:flag = {
+						var:pattern_color_1 = 2
 					}
 				}
 				100 = "blue"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_1 = 12
+					scope:flag = {
+						var:pattern_color_1 = 3
+					}
+				}
+				100 = "green"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 4
+					}
+				}
+				100 = "red"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 5
+					}
+				}
+				100 = "orange"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 6
+					}
+				}
+				100 = "yellow"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 7
 					}
 				}
 				100 = "purple"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 8
+					}
+				}
+				100 = "beige"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 9
+					}
+				}
+				100 = "peach"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 10
+					}
+				}
+				100 = "brown"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 11
+					}
+				}
+				100 = "pink"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 12
+					}
+				}
+				100 = "saffron"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 13
+					}
+				}
+				100 = "grey"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 14
+					}
+				}
+				100 = "tan"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 15
+					}
+				}
+				100 = "azure"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 16
+					}
+				}
+				100 = "pearl"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 17
+					}
+				}
+				100 = "teal"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 18
+					}
+				}
+				100 = "blue_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 19
+					}
+				}
+				100 = "green_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 20
+					}
+				}
+				100 = "red_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 21
+					}
+				}
+				100 = "brown_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 22
+					}
+				}
+				100 = "black_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 23
+					}
+				}
+				100 = "yellow_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 24
+					}
+				}
+				100 = "yellow_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 25
+					}
+				}
+				100 = "red_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 26
+					}
+				}
+				100 = "green_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 27
+					}
+				}
+				100 = "red_faint"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 28
+					}
+				}
+				100 = "grey_observer"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_1 = 29
+					}
+				}
+				100 = "highlight"
 			}
 		}
 		pattern_color_2 = {
 			special_selection = {
 				trigger = {
-					scope:country = {
+					scope:flag = {
 						var:pattern_color_2 = 0
-					}
-				}
-				100 = "red"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 1
-					}
-				}
-				100 = "orange"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 2
-					}
-				}
-				100 = "yellow"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 3
-					}
-				}
-				100 = "yellow_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 4
-					}
-				}
-				100 = "white"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 5
-					}
-				}
-				100 = "grey"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 6
 					}
 				}
 				100 = "black"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 7
+					scope:flag = {
+						var:pattern_color_2 = 1
 					}
 				}
-				100 = "brown"
+				100 = "white"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 8
-					}
-				}
-				100 = "green"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 9
-					}
-				}
-				100 = "green_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 10
-					}
-				}
-				100 = "blue_light"
-			}
-			special_selection = {
-				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 11
+					scope:flag = {
+						var:pattern_color_2 = 2
 					}
 				}
 				100 = "blue"
 			}
 			special_selection = {
 				trigger = {
-					scope:country = {
-						var:pattern_color_2 = 12
+					scope:flag = {
+						var:pattern_color_2 = 3
+					}
+				}
+				100 = "green"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 4
+					}
+				}
+				100 = "red"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 5
+					}
+				}
+				100 = "orange"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 6
+					}
+				}
+				100 = "yellow"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 7
 					}
 				}
 				100 = "purple"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 8
+					}
+				}
+				100 = "beige"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 9
+					}
+				}
+				100 = "peach"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 10
+					}
+				}
+				100 = "brown"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 11
+					}
+				}
+				100 = "pink"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 12
+					}
+				}
+				100 = "saffron"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 13
+					}
+				}
+				100 = "grey"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 14
+					}
+				}
+				100 = "tan"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 15
+					}
+				}
+				100 = "azure"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 16
+					}
+				}
+				100 = "pearl"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 17
+					}
+				}
+				100 = "teal"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 18
+					}
+				}
+				100 = "blue_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 19
+					}
+				}
+				100 = "green_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 20
+					}
+				}
+				100 = "red_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 21
+					}
+				}
+				100 = "brown_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 22
+					}
+				}
+				100 = "black_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 23
+					}
+				}
+				100 = "yellow_light"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 24
+					}
+				}
+				100 = "yellow_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 25
+					}
+				}
+				100 = "red_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 26
+					}
+				}
+				100 = "green_dark"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 27
+					}
+				}
+				100 = "red_faint"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 28
+					}
+				}
+				100 = "grey_observer"
+			}
+			special_selection = {
+				trigger = {
+					scope:flag = {
+						var:pattern_color_2 = 29
+					}
+				}
+				100 = "highlight"
 			}
 		}
 	}

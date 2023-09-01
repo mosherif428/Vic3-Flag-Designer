@@ -7,12 +7,10 @@
 	}
 }
 
-changing_coa_effect = {
-	scope = country
+change_coa_gui_effect = {
+	scope = flag
 	effect = {
-		scope:country = {
-			changing_coa_effect = yes
-		}
+		change_coa_effect = yes
 	}
 }
 set_emblem_layout = {
@@ -34,15 +32,474 @@ change_pattern = {
 	}
 }
 
-change_bgcolor = {
-	scope = country
+change_pattern_color_0_black = {
+	scope = flag
 	effect = {
-		CoatOfArms.GetTexture.color1 = {
-			save_scope_as = pattern_color_0
+		#change_pattern_color_0_black = { pattern_color_0 = "black" }
+		change_pattern_color_0_black = yes
+	}
+}
+change_pattern_color_0_white = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 1
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 1
+			}
 		}
-		save_scope_value_as = {
-			name = pattern_color_0
-			value = "[]"
+	}
+}
+change_pattern_color_0_blue = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 2
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 2
+			}
+		}
+	}
+}
+change_pattern_color_0_green = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 3
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 3
+			}
+		}
+	}
+}
+change_pattern_color_0_red = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 4
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 4
+			}
+		}
+	}
+}
+change_pattern_color_0_orange = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 5
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 5
+			}
+		}
+	}
+}
+change_pattern_color_0_yellow = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 6
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 6
+			}
+		}
+	}
+}
+change_pattern_color_0_purple = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 7
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 7
+			}
+		}
+	}
+}
+change_pattern_color_0_beige = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 8
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 8
+			}
+		}
+	}
+}
+change_pattern_color_0_peach = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 9
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 9
+			}
+		}
+	}
+}
+change_pattern_color_0_brown = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 10
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 10
+			}
+		}
+	}
+}
+change_pattern_color_0_pink = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 11
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 11
+			}
+		}
+	}
+}
+change_pattern_color_0_saffron = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 12
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 12
+			}
+		}
+	}
+}
+change_pattern_color_0_grey = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 13
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 13
+			}
+		}
+	}
+}
+change_pattern_color_0_tan = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 14
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 14
+			}
+		}
+	}
+}
+change_pattern_color_0_azure = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 15
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 15
+			}
+		}
+	}
+}
+change_pattern_color_0_pearl = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 16
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 16
+			}
+		}
+	}
+}
+change_pattern_color_0_teal = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 17
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 17
+			}
+		}
+	}
+}
+change_pattern_color_0_blue_light = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 18
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 18
+			}
+		}
+	}
+}
+change_pattern_color_0_green_light = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 19
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 19
+			}
+		}
+	}
+}
+change_pattern_color_0_red_light = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 20
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 20
+			}
+		}
+	}
+}
+change_pattern_color_0_brown_light = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 21
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 21
+			}
+		}
+	}
+}
+change_pattern_color_0_black_light = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 22
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 22
+			}
+		}
+	}
+}
+change_pattern_color_0_yellow_light = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 23
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 23
+			}
+		}
+	}
+}
+change_pattern_color_0_yellow_dark = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 24
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 24
+			}
+		}
+	}
+}
+change_pattern_color_0_red_dark = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 25
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 25
+			}
+		}
+	}
+}
+change_pattern_color_0_green_dark = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 26
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 26
+			}
+		}
+	}
+}
+change_pattern_color_0_red_faint = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 27
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 27
+			}
+		}
+	}
+}
+change_pattern_color_0_grey_observer = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 28
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 28
+			}
+		}
+	}
+}
+change_pattern_color_0_highlight = {
+	scope = flag
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					var:pattern_color_0 = 29
+				}
+			}
+			set_variable = {
+				name = pattern_color_0
+				value = 29
+			}
 		}
 	}
 }

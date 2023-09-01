@@ -2,7 +2,6 @@
 {
 	type vbox_flag_designer = widget
 	{
-		#datacontext = "[CoatOfArms.GetTexture()]"
 		hbox = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
@@ -64,8 +63,8 @@
         maxverticalslots = 1000
         flipdirection = yes
         block "width"{
-            datamodel_wrap = 5
-            maxhorizontalslots = 5
+            datamodel_wrap = 6
+            maxhorizontalslots = 6
         }
         layoutpolicy_vertical = expanding
         layoutpolicy_horizontal = expanding
@@ -79,7 +78,7 @@
 				{
 					datacontext = "[GetScriptedGui('pattern_bg')]"
 				}
-                size = { 100 68 }
+                size = { 95 68 }
 				using = red_button
 				margin = { 30 30 }
 				text_single = {
@@ -151,8 +150,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/black.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_black')]"
+				onclick = "[GetVariableSystem.Set('pattern_color_0', 'black')]"
 		
 			}
 			button = {
@@ -160,8 +159,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/white.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_white')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_white', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -169,8 +168,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/blue.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_blue')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_blue', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -178,8 +177,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/green.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_green')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_green', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -187,8 +186,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/red.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_red')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_red', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -196,8 +195,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/orange.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_orange')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_orange', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -205,8 +204,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/yellow.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_yellow')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_yellow', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -214,8 +213,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/purple.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_purple')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_purple', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -223,8 +222,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/beige.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_beige')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_beige', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -232,8 +231,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/peach.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_peach')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_peach', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			
@@ -245,8 +244,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/brown.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_brown')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_brown', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -254,8 +253,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/pink.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_pink')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_pink', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -263,8 +262,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/saffron.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_saffron')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_saffron', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -272,48 +271,48 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/grey.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_grey')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_grey', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 			}
 			button = {
 				name = "tan"
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/tan.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_tan')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_tan', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 			}
 			button = {
 				name = "azure"
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/azure.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_azure')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_azure', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 			}
 			button = {
 				name = "pearl"
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/pearl.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_pearl')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_pearl', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 			}
 			button = {
 				name = "teal"
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/teal.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_teal')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_teal', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 			}
 			button = {
 				name = "blue_light"
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/blue_light.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_blue_light')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_blue_light', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -321,8 +320,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/green_light.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_green_light')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_green_light', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 		}
@@ -334,8 +333,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/red_light.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_red_light')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_red_light', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -343,8 +342,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/brown_light.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_brown_light')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_brown_light', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -352,16 +351,16 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/black_light.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor_0', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_black_light')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_black_light', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 			}
 			button = {
 				name = "yellow_light"
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/yellow_light.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_yellow_light')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_yellow_light', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -369,8 +368,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/yellow_dark.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_yellow_dark')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_yellow_dark', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -378,8 +377,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/red_dark.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_red_dark')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_red_dark', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -387,8 +386,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/green_dark.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_green_dark')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_green_dark', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -396,8 +395,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/red_faint.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_red_faint')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_red_faint', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -405,8 +404,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/grey_observer.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_grey_observer')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_grey_observer', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 			button = {
@@ -414,8 +413,8 @@
 				using = default_button_action
 				size = { 52 52 }
 				texture = "gfx/interface/colors/highlight.dds"
-				datacontext = "[GetScriptedGui('change_bgcolor')]"
-				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_bgcolor', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
+				datacontext = "[GetScriptedGui('change_pattern_color_0_highlight')]"
+				onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('change_pattern_color_0_highlight', MakeScopeFlag(CountryDefinition.GetFlag('change_coa_effect'))).End )]"
 		
 			}
 		}
@@ -732,8 +731,8 @@
         maxverticalslots = 1000
         flipdirection = yes
         block "width"{
-            datamodel_wrap = 5
-            maxhorizontalslots = 5
+            datamodel_wrap = 6
+            maxhorizontalslots = 6
         }
         layoutpolicy_vertical = expanding
         layoutpolicy_horizontal = expanding
@@ -748,7 +747,7 @@
 				{
 					datacontext = "[GetScriptedGui('set_emblem_layout')]"
 				}
-				size = { 100 68 }
+				size = { 95 68 }
 				using = red_button
 				margin = { 30 30 }
 				text_single = {
@@ -799,8 +798,8 @@
         maxverticalslots = 1000
         flipdirection = yes
         block "width"{
-            datamodel_wrap = 5
-            maxhorizontalslots = 5
+            datamodel_wrap = 6
+            maxhorizontalslots = 6
         }
         layoutpolicy_vertical = expanding
         layoutpolicy_horizontal = expanding
@@ -815,7 +814,7 @@
 				{
 					datacontext = "[GetScriptedGui('colored_emblem')]"
 				}
-				size = { 100 68 }
+				size = { 95 68 }
 				using = red_button
 				margin = { 30 30 }
 				text_single = {
@@ -836,8 +835,8 @@
         maxverticalslots = 1000
         flipdirection = yes
         block "width"{
-            datamodel_wrap = 5
-            maxhorizontalslots = 5
+            datamodel_wrap = 6
+            maxhorizontalslots = 6
         }
         layoutpolicy_vertical = expanding
         layoutpolicy_horizontal = expanding
@@ -847,7 +846,7 @@
         }
         item = {
             button = {
-                size = { 100 68 }
+                size = { 95 68 }
 				using = red_button
 				margin = { 30 30 }
 				text_single = {
@@ -878,14 +877,14 @@
 				margin_right = 10
 				margin_left = 10
 				parentanchor = top|hcenter
-				tab_button = {
+				button_tab = {
 					raw_text = "Colored Emblems"
 					onclick = "[GetVariableSystem.Set('vbox_flag_designer_emblem_list', 'colored_emblem_list')]"
 					down = "[GetVariableSystem.HasValue('vbox_flag_designer_emblem_list', 'colored_emblem_list')]"
 					layoutpolicy_horizontal = expanding
 				}
 
-				tab_button = {
+				button_tab = {
 					raw_text = "Textured Emblems"
 					onclick = "[GetVariableSystem.Set('vbox_flag_designer_emblem_list', 'textured_emblem_list')]"
 					down = "[GetVariableSystem.HasValue('vbox_flag_designer_emblem_list', 'textured_emblem_list')]"
@@ -954,8 +953,8 @@
 	{
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = expanding
-		name = "subs_list"
-		visible = "[GetVariableSystem.HasValue('subs_panel', 'subs_list')]"
+		name = "all_subs_list"
+		visible = "[GetVariableSystem.HasValue('subs_panel', 'all_subs_list')]"
 		background = Background_Area
 		vbox = {
 			layoutpolicy_horizontal = expanding
@@ -966,22 +965,22 @@
 				margin_right = 10
 				margin_left = 10
 				parentanchor = top|hcenter
-				tab_button = {
+				button_tab = {
 					raw_text = "Vanilla Subs"
-					onclick = "[GetVariableSystem.Set('vbox_flag_designer_subs_list', 'subs_list')]"
-					down = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'subs_list')]"
+					onclick = "[GetVariableSystem.Set('all_subs_list', 'subs_list')]"
+					down = "[GetVariableSystem.HasValue('all_subs_list', 'subs_list')]"
 					layoutpolicy_horizontal = expanding
 				}
 
-				tab_button = {
+				button_tab = {
 					raw_text = "Custom Subs"
-					onclick = "[GetVariableSystem.Set('vbox_flag_designer_subs_list', 'custom_subs_list')]"
-					down = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'custom_subs_list')]"
+					onclick = "[GetVariableSystem.Set('all_subs_list', 'custom_subs_list')]"
+					down = "[GetVariableSystem.HasValue('all_subs_list', 'custom_subs_list')]"
 					layoutpolicy_horizontal = expanding
 				}
 			}
 			scrollbox = {
-				visible = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'subs_list')]"
+				visible = "[GetVariableSystem.HasValue('all_subs_list', 'subs_list')]"
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 				blockoverride "scrollbox_content"
@@ -990,7 +989,7 @@
 				}
 			}
 			scrollbox = {
-				visible = "[GetVariableSystem.HasValue('vbox_flag_designer_subs_list', 'custom_subs_list')]"
+				visible = "[GetVariableSystem.HasValue('all_subs_list', 'custom_subs_list')]"
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 				blockoverride "scrollbox_content"
@@ -1265,7 +1264,7 @@
 		name = "flag_designer_previews"
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = expanding
-		datacontext = "[GetScriptedGui('initial_coa_effect', 'change_coa_effect')]"
+		#datacontext = "[GetScriptedGui('change_coa_effect')]"
 		
 		hbox = {
 			layoutpolicy_horizontal = expanding
@@ -1312,26 +1311,26 @@
 					}
 				}
 				small_flag = {
-					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					datacontext = "[GetScriptedGui('chance_coa_effect')]"
 					blockoverride "texture"
 					{
 						texture = "[CountryDefinition.GetBaseFlag.GetSmallFlagTexture]"
 					}
-					#texture = "[CountryDefinition.GetFlag('initial_coa_effect').GetSmallFlagTexture]"
+					#texture = "[CountryDefinition.GetFlag('change_coa_effect').GetSmallFlagTexture]"
 					blockoverride "frame"
 					{
-						frame = "[CountryDefinition.GetFlag('initial_coa_effect').GetSmallFlagFrame]"
+						frame = "[CountryDefinition.GetFlag('change_coa_effect').GetSmallFlagFrame]"
 					}
 				}
 				flag = {
-					datacontext = "[GetScriptedGui('initial_coa_effect')]"
+					datacontext = "[GetScriptedGui('change_coa_effect')]"
 					blockoverride "texture"
 					{
-						texture = "[CountryDefinition.GetFlag('initial_coa_effect').GetMediumFlagTexture]"
+						texture = "[CountryDefinition.GetFlag('change_coa_effect').GetMediumFlagTexture]"
 					}
 					blockoverride "frame"
 					{
-						frame = "[CountryDefinition.GetFlag('initial_coa_effect').GetMediumFlagFrame]"
+						frame = "[CountryDefinition.GetFlag('change_coa_effect').GetMediumFlagFrame]"
 					}
 				}
 				large_flag = {
@@ -1369,7 +1368,7 @@
 			margin_right = 10
 			margin_left = 10
 			parentanchor = top|hcenter
-			tab_button = {
+			button_tab = {
 				raw_text = "Background"
 				datamodel = "[GetGlobalList('all_patterns')]"
 
@@ -1379,7 +1378,7 @@
 				layoutpolicy_horizontal = expanding
 			}
 
-			tab_button = {
+			button_tab = {
 				raw_text = "Emblem Layout"
 				datamodel = "[GetGlobalList('emblem_layouts')]"
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_layout')]"
@@ -1388,7 +1387,7 @@
 				layoutpolicy_horizontal = expanding
 			}
 
-			tab_button = {
+			button_tab = {
 				raw_text = "Emblem Instances"
 				#datamodel = "[GetGlobalList('all_colored_emblems', 'all_textured_emblems')]"
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'emblem_instances')]"
@@ -1400,7 +1399,7 @@
 				layoutpolicy_horizontal = expanding
 			}
 			
-			tab_button = {
+			button_tab = {
 				raw_text = "Subs"
 				datamodel = "[GetGlobalList('subs_list')]"
 				onclick = "[GetVariableSystem.Set('flag_designer_window', 'subs_panel')]"

@@ -505,6 +505,14 @@ texticon = {
 	}
 }
 texticon = { 
+	icon = icon_ce_tricolor_horizontal_fifth
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_horizontal_fifth.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
 	icon = icon_ce_tricolor_horizontal_thick
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_tricolor_horizontal_thick.dds"
@@ -929,14 +937,6 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
 	icon = icon_ce_checkered_orle
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_checkered_orle.dds"
@@ -1300,6 +1300,14 @@ texticon = {
 	icon = icon_ce_sunburst
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_sunburst.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_sun_waves
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_sun_waves.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -1969,7 +1977,15 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_ce_eagle_usa_simple
+	icon = icon_ce_eagle_prussia
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_prussia.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_eagle_usa_simple
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_eagle_usa_simple.dds"
 		size = { 100 68 }
@@ -2065,7 +2081,7 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_ce_golden_fleece
+	icon = icon_ce_golden_fleece
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_golden_fleece.dds"
 		size = { 100 68 }
@@ -2196,6 +2212,14 @@ texticon = {
 	icon = icon_ce_lion_sri_lanka
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_sri_lanka.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_lion_singa
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_lion_singa.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -2529,6 +2553,14 @@ texticon = {
 	}
 }
 texticon = { 
+	icon = icon_ce_cross_st_michael
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_st_michael.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
 	icon = icon_ce_cross_sweden
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_cross_sweden.dds"
@@ -2588,14 +2620,6 @@ texticon = {
 	icon = icon_ce_fasces
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_fasces.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -3099,7 +3123,7 @@ texticon = {
 texticon = { 
 	icon = icon_ce_shahada_02
 	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/shahada_02.dds"
+		texture = "gfx/coat_of_arms/colored_emblems/ce_shahada_02.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -3140,14 +3164,6 @@ texticon = {
 	icon = icon_ce_letter_b
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_b.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -3217,14 +3233,6 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
 	icon = icon_ce_letter_f
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_f.dds"
@@ -3273,17 +3281,17 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_letter_l
+	icon = icon_ce_letter_k
 	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_l.dds"
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_k.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
 }
 texticon = { 
-	icon = icon_ce_solid
+	icon = icon_ce_letter_l
 	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_l.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -3316,6 +3324,14 @@ texticon = {
 	icon = icon_ce_letter_o
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_o.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_letter_p
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_letter_p.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -3817,14 +3833,6 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
 	icon = icon_ce_crown_oudh
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_crown_oudh.dds"
@@ -4004,14 +4012,6 @@ texticon = {
 	icon = icon_ce_ribbon
 	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_ribbon.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
-	icon = icon_ce_solid
-	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_solid.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -4395,6 +4395,14 @@ texticon = {
 texticon = { 
 	icon = icon_ce_dharmachakra
 	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_dharmachakra.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_dharmachakra_india
+	iconsize = { 
 		texture = "gfx/coat_of_arms/colored_emblems/ce_dharmachakra_india.dds"
 		size = { 100 68 }
 		fontsize = 16
@@ -4457,9 +4465,17 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_ce_kanaga
+	icon = icon_ce_katar
 	iconsize = { 
-		texture = "gfx/coat_of_arms/colored_emblems/ce_kanaga.dds"
+		texture = "gfx/coat_of_arms/colored_emblems/ce_katar.dds"
+		size = { 100 68 }
+		fontsize = 16
+	}
+}
+texticon = { 
+	icon = icon_ce_kanaka
+	iconsize = { 
+		texture = "gfx/coat_of_arms/colored_emblems/ce_kanaka.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -5513,7 +5529,7 @@ texticon = {
 	}
 }
 texticon = { 
-	icon = icon_sub_crown
+	icon = icon_sub_AUS_crown
 	iconsize = { 
 		texture = "gfx/interface/icons/flag_designer_icons/sub_AUS_crown.dds"
 		size = { 100 68 }
@@ -5619,7 +5635,7 @@ texticon = {
 texticon = { 
 	icon = icon_CSA_canton_saltire
 	iconsize = { 
-		texture = "gfx/interface/icons/flag_designer_icons/CSA_canton_saltire.dds"
+		texture = "gfx/interface/icons/flag_designer_icons/sub_CSA_canton_saltire.dds"
 		size = { 100 68 }
 		fontsize = 16
 	}
@@ -5964,14 +5980,6 @@ texticon = {
 	icon = icon_sub_QUE_coa
 	iconsize = { 
 		texture = "gfx/interface/icons/flag_designer_icons/sub_QUE_coa.dds"
-		size = { 100 68 }
-		fontsize = 16
-	}
-}
-texticon = { 
-	icon = icon_sub_QUE_coa
-	iconsize = { 
-		texture = "gfx/interface/icons/flag_designer_icons/sub_AUS_coa2.dds" ###############################################
 		size = { 100 68 }
 		fontsize = 16
 	}

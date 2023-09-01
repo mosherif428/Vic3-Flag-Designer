@@ -1,0 +1,25 @@
+FD_COA = {
+	pattern = scope:FD_COA.pattern
+	color1 = scope:FD_COA.color1
+	color2 = $pattern_color_1$
+	color3 = $pattern_color_2$
+	colored_emblem = {
+		texture = $colored_emblem_texture$
+		color1 = $colored_emblem_color_0$
+		color2 = $colored_emblem_color_1$
+		color3 = $colored_emblem_color_2$
+		instance = {
+			scale = $colored_emblem_scale$
+			position = $colored_emblem_position$
+			rotation = $colored_emblem_rotation$
+		}
+	}
+	textured_emblem = {
+		texture = $textured_emblem_texture$
+		instance = {
+			scale = $textured_emblem_scale$
+			position = $textured_emblem_position$
+			rotation = $textured_emblem_rotation$
+		}
+	}
+}

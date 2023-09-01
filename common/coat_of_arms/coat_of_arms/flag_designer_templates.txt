@@ -16,7 +16,7 @@ template = {
 		}
 	}
 	fd_template_charge_offset = {
-		@third = @[1/3]
+		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
 		color2 = "red"
@@ -80,7 +80,7 @@ template = {
 		}
 	}
 	fd_template_tricolor_vertical_charge = {
-		@third = @[1/3]
+		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
 		color2 = "red"
@@ -111,7 +111,7 @@ template = {
 		}
 	}
 	fd_template_tricolor_horizontal_charge = {
-		@third = @[1/3]
+		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
 		color2 = "red"
@@ -219,7 +219,7 @@ template = {
 	}
 	fd_template_texas = {
 		@tex_star_position = @[1/3/2]
-		@third = @[1/3]
+		
 		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
@@ -297,7 +297,7 @@ template = {
 		}
 	}
 	fd_template_cross_charge_in_canton = {
-		@third = @[1/3]
+		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
 		color2 = "red"
@@ -322,7 +322,7 @@ template = {
 		}
 	}
 	fd_template_cross_charges_in_quadrants = {
-		@third = @[1/3]
+		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
 		color2 = "red"
@@ -549,7 +549,7 @@ template = {
 		}
 	}
 	fd_template_border_charge_offset = {
-		@third = @[1/3]
+		
 		pattern = "pattern_border_double.dds"
 		color1 = "white"
 		color2 = "red"
@@ -562,7 +562,7 @@ template = {
 		}
 	}
 	fd_template_semy = {
-		@semy = 0.25
+		
 		pattern = "pattern_solid.tga"
 		color1 = "white"
 
